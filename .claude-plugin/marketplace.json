@@ -1,0 +1,14 @@
+{
+  "name": "project-kickoff-kit",
+  "description": "The Project Kickoff Kit: run any project with Claude, from kickoff to close.",
+  "owner": {
+    "name": "Wrbeckett"
+  },
+  "plugins": [
+    {
+      "name": "project-kickoff-kit",
+      "source": "./plugins/project-kickoff-kit",
+      "description": "Start, audit, hand off, join, take over or close a project with Claude: interview, blueprint, folders, sessions, handover, model and usage plans, weekly review."
+    }
+  ]
+}

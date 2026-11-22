@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project Kickoff Kit: Models and sessions cheat sheet</title>
+<style>body{font-family:-apple-system,Helvetica,Arial,sans-serif;max-width:46em;margin:2em auto;
+padding:0 1em;line-height:1.55;color:#1F2328;font-size:1.05rem}h1{border-bottom:3px solid #2563A8;padding-bottom:.3em}
+h2{color:#1d4f88;margin-top:1.6em}table{border-collapse:collapse;width:100%;margin:1em 0}
+th,td{border:1px solid #9aa4b2;padding:.45em .6em;text-align:left;vertical-align:top}th{background:#E6ECF4}
+pre{background:#F3F4F6;padding:.8em;white-space:pre-wrap;border:1px solid #d0d7de}code{font-size:.95em}
+blockquote{border-left:4px solid #2563A8;margin-left:0;padding-left:1em}</style>
+</head>
+<body>
+<main>
+<h1>Claude models and sessions: cheat sheet</h1>
+<p><strong>Which Claude model and effort to pick for each part of the Project Kickoff Kit.</strong> Kit defaults, checked Nov 21, 2026 against Anthropic's model guides. Each project keeps its own version in MODEL-GUIDE.md; the weekly review and audits update it. Every pick here is a default: change it for one project ("change: Lead runs on Sonnet") or for all your projects (MY-DEFAULTS.md).</p>
+<p><strong>How to pick:</strong> click the model name next to the send button, choose the model, then <strong>Effort</strong>. Do it before the first message of a session. You can switch mid-chat if a job turns out harder or easier than expected.</p>
+<h2>The four models (smallest to biggest)</h2>
+<table>
+<thead>
+<tr>
+<th scope="col">Model</th>
+<th scope="col">Best for</th>
+<th scope="col">Speed</th>
+<th scope="col">Uses your limit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Haiku 5.5</strong></td>
+<td>Reminders, quick checks, lookups, sorting, short summaries</td>
+<td>Fastest</td>
+<td>Least</td>
+</tr>
+<tr>
+<td><strong>Sonnet 5.5</strong></td>
+<td>Clear, well-scoped work from a brief: polish a doc, a deck from a template, posts from a plan, routine reports</td>
+<td>Fast</td>
+<td>About half of Opus</td>
+</tr>
+<tr>
+<td><strong>Opus 5.5</strong></td>
+<td>Most real work: interviews, planning, research, analysis, judgment calls, coding, docs and decks that need thinking</td>
+<td>Moderate</td>
+<td>The baseline</td>
+</tr>
+<tr>
+<td><strong>Fable 5.2</strong></td>
+<td>The hardest, longest jobs: deep multi-step research, big builds, or when Opus at High still falls short</td>
+<td>Moderate</td>
+<td>About twice Opus</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Which plan has what:</strong> Free has Haiku and Sonnet. Paid plans add Opus (the default on Pro, Max, Ultra and Team). Fable is on all paid plans, but on Pro and standard Team seats it uses paid usage credits, so ask the owner first. Work and school accounts: an admin may limit the list.</p>
+<p><strong>Effort</strong> has five settings: Low, Medium, High, Extra high and Max. Higher effort thinks longer, checks more and uses your limit faster; Low and Medium stretch your usage for routine work. Opus 5.5 starts at <strong>Medium</strong>; move to <strong>High</strong> when Medium stalls. Extra high is for long coding and agent jobs.</p>
+<h2>The kit's steps</h2>
+<table>
+<thead>
+<tr>
+<th scope="col">Kit step</th>
+<th scope="col">Where</th>
+<th scope="col">Model</th>
+<th scope="col">Effort</th>
+<th scope="col">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Kickoff interview + blueprint</td>
+<td>New chat in the Project (becomes Lead)</td>
+<td><strong>Opus</strong></td>
+<td>Medium</td>
+<td>High for big, multi-person projects. Free plan: Sonnet</td>
+</tr>
+<tr>
+<td>Audit of an existing project</td>
+<td>New chat in the Project (becomes Lead)</td>
+<td><strong>Opus</strong></td>
+<td>High</td>
+<td>Fable only for very large projects, with OK if it uses credits</td>
+</tr>
+<tr>
+<td>Building the approved setup</td>
+<td>Same chat</td>
+<td><strong>Opus</strong></td>
+<td>Medium</td>
+<td>Folders, templates, PDFs</td>
+</tr>
+<tr>
+<td>Lead session</td>
+<td><Project> – Lead</td>
+<td><strong>Opus</strong></td>
+<td>Medium</td>
+<td>Routing and judgment. Small, simple project: Sonnet is fine</td>
+</tr>
+<tr>
+<td>Health check (Prompt 5)</td>
+<td>Any session</td>
+<td><strong>Sonnet</strong></td>
+<td>Medium</td>
+<td></td>
+</tr>
+<tr>
+<td>Fresh start (Prompt 4)</td>
+<td>Replaces a session</td>
+<td>Same as the old session</td>
+<td>Same</td>
+<td></td>
+</tr>
+<tr>
+<td>Weekly review + audit</td>
+<td>Lead (scheduled)</td>
+<td><strong>Opus</strong></td>
+<td>Medium</td>
+<td>Needs judgment across every doc</td>
+</tr>
+<tr>
+<td>Morning brief</td>
+<td>Lead (scheduled)</td>
+<td><strong>Sonnet</strong></td>
+<td>Medium</td>
+<td><strong>Haiku</strong> if it's only a task list</td>
+</tr>
+<tr>
+<td>Weekly report</td>
+<td>Lead or work session (scheduled)</td>
+<td><strong>Sonnet</strong></td>
+<td>Medium</td>
+<td><strong>Opus</strong> if it needs analysis</td>
+</tr>
+<tr>
+<td>Reminders, "anything new?" checks</td>
+<td>Scheduled</td>
+<td><strong>Haiku</strong></td>
+<td>Low</td>
+<td>Stops with one line when nothing's new</td>
+</tr>
+</tbody>
+</table>
+<h2>Work sessions, by kind of work</h2>
+<table>
+<thead>
+<tr>
+<th scope="col">Kind of work</th>
+<th scope="col">Model</th>
+<th scope="col">Effort</th>
+<th scope="col">Move up / down</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Build, code, websites</td>
+<td><strong>Opus</strong></td>
+<td>Medium</td>
+<td>High for hard bugs and big changes; <strong>Fable</strong> for long builds handed off to subagents; <strong>Sonnet</strong> for small routine edits</td>
+</tr>
+<tr>
+<td>Design and visuals (concepts, layouts, print files)</td>
+<td><strong>Opus</strong></td>
+<td>Medium</td>
+<td><strong>Sonnet</strong> for variations of an approved design</td>
+</tr>
+<tr>
+<td>Writing that needs judgment (proposals, reports, policy, curriculum)</td>
+<td><strong>Opus</strong></td>
+<td>Medium</td>
+<td>High for high-stakes documents</td>
+</tr>
+<tr>
+<td>Writing from a clear brief (posts, captions, emails from notes, formatting)</td>
+<td><strong>Sonnet</strong></td>
+<td>Medium</td>
+<td><strong>Haiku</strong> for very short, repetitive items</td>
+</tr>
+<tr>
+<td>Research and analysis</td>
+<td><strong>Opus</strong></td>
+<td>High</td>
+<td><strong>Fable</strong> for deep research across many sources</td>
+</tr>
+<tr>
+<td>Data, admin, sorting, extracting, summaries</td>
+<td><strong>Sonnet</strong></td>
+<td>Medium</td>
+<td><strong>Haiku</strong> for high-volume, simple items</td>
+</tr>
+<tr>
+<td>Marketing and social</td>
+<td><strong>Sonnet</strong></td>
+<td>Medium</td>
+<td><strong>Opus</strong> for strategy and campaign plans</td>
+</tr>
+<tr>
+<td>Teaching and course materials</td>
+<td><strong>Opus</strong></td>
+<td>Medium</td>
+<td><strong>Sonnet</strong> to turn approved outlines into handouts and slides</td>
+</tr>
+</tbody>
+</table>
+<h2>When to switch</h2>
+<ol>
+<li><strong>Missed the mark?</strong> First check the prompt and files gave Claude what it needed.</li>
+<li><strong>Then raise the effort</strong> one step.</li>
+<li><strong>Still wrong</strong>, even though it had the context and clearly tried? Move up one model.</li>
+<li><strong>Easy every time?</strong> Lower the effort first, then try a smaller model (well-scoped work only).</li>
+<li><strong>Sonnet always at Extra high or Max?</strong> Use Opus at Medium instead; it usually costs about the same per job.</li>
+<li><strong>Fable on Pro or a standard Team seat</strong> uses paid credits: owner's OK first.</li>
+<li><strong>A new model comes out?</strong> Rerun one go-to job on it; you may get the same result at lower effort.</li>
+</ol>
+<h2>Keeping it current</h2>
+<ul>
+<li><strong>Each project:</strong> MODEL-GUIDE.md lists the model and effort for every session, scheduled task and kind of job. It also appears on each session's brief and on the project cheat sheet.</li>
+<li><strong>Weekly review:</strong> checks the fit (repeated misses mean move up; easy routine runs mean move down) against the usage plan, and suggests changes. The owner answers "OK 1, 3; not 2".</li>
+<li><strong>Audits:</strong> compare what each chat and scheduled task actually runs on with this sheet.</li>
+<li><strong>Monthly model check:</strong> a scheduled task compares this sheet with Anthropic's help pages and logs any change in KIT-FEEDBACK.md for the kit owner to approve.</li>
+<li><strong>The kit:</strong> when Anthropic releases or retires a model, update this sheet, change the "checked" date, and rebuild the PDF (python3 _build/make_pdfs.py).</li>
+</ul>
+<p>Sources: Anthropic's "Choosing a Claude model for knowledge workers" (Claude Academy), "Using Claude Opus 5.5 as your daily driver for knowledge work" (claude.com), the Models overview (platform.claude.com) and "Claude Fable models on your plan" and "Change the model, effort, and thinking settings" (support.claude.com). Usage comparisons are rough, based on Anthropic's published prices.</p>
+</main>
+</body>
+</html>

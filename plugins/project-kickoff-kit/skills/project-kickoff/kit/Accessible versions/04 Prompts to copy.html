@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project Kickoff Kit: Prompts to copy</title>
+<style>body{font-family:-apple-system,Helvetica,Arial,sans-serif;max-width:46em;margin:2em auto;
+padding:0 1em;line-height:1.55;color:#1F2328;font-size:1.05rem}h1{border-bottom:3px solid #2563A8;padding-bottom:.3em}
+h2{color:#1d4f88;margin-top:1.6em}table{border-collapse:collapse;width:100%;margin:1em 0}
+th,td{border:1px solid #9aa4b2;padding:.45em .6em;text-align:left;vertical-align:top}th{background:#E6ECF4}
+pre{background:#F3F4F6;padding:.8em;white-space:pre-wrap;border:1px solid #d0d7de}code{font-size:.95em}
+blockquote{border-left:4px solid #2563A8;margin-left:0;padding-left:1em}</style>
+</head>
+<body>
+<main>
+<h1>Prompts to copy</h1>
+<p>Copy the text in the box and paste it into a Claude chat. Replace anything in <angle brackets>.</p>
+<h2>Prompt 1: Start a new project</h2>
+<p>Use in a new chat, inside the project's Claude Project, with the project folder connected (it contains KICKOFF.md).</p>
+<pre><code>Please read KICKOFF.md in the connected folder and start the new-project kickoff. Ask me everything you need before you build anything.
+</code></pre>
+<h2>Prompt 2: Audit an existing project</h2>
+<p>Use in a new chat, inside the project's Claude Project, with the project folder connected (it contains AUDIT.md).</p>
+<pre><code>Please read AUDIT.md in the connected folder and audit this project: folders, files, this Project's docs, past chats, scheduled tasks, websites and connected apps. Read only; change nothing. Then ask me about anything unclear before you write the report.
+Websites and links for this project: &lt;paste them here&gt;
+</code></pre>
+<h2>Prompt 3: Start a work session</h2>
+<p>Claude fills this in for each session in "<Project> - Session prompts.pdf", with the model and effort to pick first (click the model name next to the send button). Start every session on the project's home computer. The general form:</p>
+<pre><code>This is the &lt;Project&gt; – &lt;Session name&gt; session. Before doing anything, read PROJECT-HANDOVER.md and SESSION-BRIEF-&lt;Session name&gt;.md in the connected folder (or the Project docs), plus the docs that brief lists. Take over any scheduled tasks the handover gives this session. Then reply with: the rules for this session, the model and effort it should run on (tell me if this chat is on a different one), my open tasks, your open tasks, and what you'll do first. If something isn't in the docs, ask me; don't guess.
+</code></pre>
+<h2>Prompt 4: Fresh start for a session that got long or forgetful</h2>
+<p>Use in a new chat that replaces an old one (same session name + a date).</p>
+<pre><code>This replaces the old &lt;Project&gt; – &lt;Session name&gt; chat, which got long. Read PROJECT-HANDOVER.md and SESSION-BRIEF-&lt;Session name&gt;.md first, take over this session's scheduled tasks (turn the old copies off, don't delete them), check this chat is on the session's model from MODEL-GUIDE.md, and tell me what's open. Ask me if anything is unclear.
+</code></pre>
+<p>Before you switch, ask the old chat: "Update the handover and your brief for a fresh start."</p>
+<h2>Prompt 5: Health check (any time)</h2>
+<p>Use in any session.</p>
+<pre><code>Health check: re-read the handover, your brief and the rules. Is anything out of date, contradicting, or stuck? Are your scheduled tasks all there and working, and set to run on the home computer (or the cloud)? Is this chat on the right model and effort for its job? List what you find and fix only what I approve.
+</code></pre>
+<h2>Prompt 6: Give the lead session an update</h2>
+<p>Use in the Lead session (only the owner can post there; anyone else adds the same lines to UPDATES-INBOX.md in the project folder). Short forms work:</p>
+<pre><code>done 3, 5, 7; 9 tomorrow; skip 12
+</code></pre>
+<pre><code>workflow idea: &lt;your idea&gt;
+</code></pre>
+<h2>Prompt 7: Add the skill (if someone shared the kit folder with you)</h2>
+<p>Use in any chat with the kit folder connected.</p>
+<pre><code>Read &quot;05 Skill/SKILL.md&quot; in the connected Project Kickoff Kit folder and propose it as a skill for me.
+</code></pre>
+<h2>Prompt 8: Which model for this job?</h2>
+<p>Use in any session before a big or unusual job. Model guide for the kit: <strong>06 Models and sessions cheat sheet</strong>.</p>
+<pre><code>Which Claude model and effort should I use for this job: &lt;describe the job&gt;? Check MODEL-GUIDE.md (or the kit's Models and sessions cheat sheet) and my plan, and answer in two lines. If it's a new kind of job, offer to add it to MODEL-GUIDE.md.
+</code></pre>
+<h2>Prompt 9: Upgrade a project to the latest kit</h2>
+<p>Use in the project's Lead session, with the project folder connected and the kit available (plugin installed, or the kit folder connected).</p>
+<pre><code>Upgrade this project to the latest Project Kickoff Kit. Check the kit version line in PROJECT-HANDOVER.md (no line means 1.1 or older), read the kit's CHANGELOG.md, and list only the changes that would help this project and don't clash with PROJECT-CHOICES.md, as one numbered decision list, each marked CLAUDE CAN DO / YOU DO / NEEDS A CONNECTOR. Change nothing until I answer, then update the kit version line.
+</code></pre>
+<h2>Prompt 10: Change how this project works</h2>
+<p>Use in the Lead session. Anything in the setup can change: names, sessions, reports, rhythm, models, folders, rules.</p>
+<pre><code>change: &lt;what you want different, e.g. no morning brief; a Monday plan instead&gt;
+</code></pre>
+<p>Lead says which files it will update, waits for your OK, updates them all, and logs it in PROJECT-CHOICES.md, so reviews and upgrades keep it. To reverse it: <code>undo change &lt;number&gt;</code>. To change your defaults for all future projects: <code>Update my MY-DEFAULTS.md: &lt;what&gt;</code> (with the folder it's in connected).</p>
+<h2>Prompt 11: Make a handover pack (for someone joining or taking over)</h2>
+<p>Use in the project's Lead chat, or in a new chat inside the Claude Project where the work lives, with the kit connected.</p>
+<pre><code>Read &quot;07 Join or take over a project/HANDOVER-PACK.md&quot; in the Project Kickoff Kit and make a handover pack for &lt;name&gt;, who is &lt;joining / taking over&gt; this project. Read only; show me the pack before saving it.
+</code></pre>
+<h2>Prompt 12: Join a teammate's project</h2>
+<p>Use in a new chat in your own Claude Project, with the shared project folder (it holds the pack) and the kit connected.</p>
+<pre><code>I'm joining &lt;Project&gt;. Read &quot;07 Join or take over a project/JOIN.md&quot; in the Project Kickoff Kit and the handover pack in the connected folder. Confirm what's already known with me, ask only what's specific to my role, and change nothing in the shared files except my own.
+</code></pre>
+<h2>Prompt 13: Take over a project someone started for you</h2>
+<p>Use in a new chat in your own Claude Project, with your project folder (holding the pack and its files) and the kit connected.</p>
+<pre><code>I'm taking over &lt;Project&gt; from &lt;name&gt;. Read &quot;07 Join or take over a project/TAKEOVER.md&quot; in the Project Kickoff Kit and the handover pack in the connected folder. Go through the pack with me, ask only what's missing, then set the project up for me.
+</code></pre>
+<p>For the plain-words version of 12 and 13, just type <strong>join this project</strong> or <strong>take over this project</strong> (with the pack in the connected folder).</p>
+<h2>Prompt 14: Check (or move) the home computer setup</h2>
+<p>Use in the Lead session, opened on the computer you want as the home computer.</p>
+<pre><code>Check this project's home computer setup: which computer is this chat on, which computer (or the cloud) each scheduled task runs on, and whether any runs failed or didn't fire because a computer was asleep, offline, had Claude closed or needed an approval. List what to fix, including moving tasks to this computer, and change nothing until I say OK.
+</code></pre>
+<p>Using a laptop? Add: <code>Set up a work window: &lt;days and times&gt;. Fit the computer tasks inside it, remind me &lt;30&gt; minutes before by &lt;phone notification / email&gt;, and tell me when I can close the laptop.</code></p>
+<p>To move a task (Prompt 14), Claude re-creates it from this computer, checks it, and turns the old copy off (it doesn't delete it). In the Claude desktop app you can also turn on <strong>"Require this computer"</strong> in a task's settings on the computer it should use.</p>
+<h2>Prompt 15: Close (or pause) a finished project</h2>
+<p>Use in the Lead session.</p>
+<pre><code>close this project
+</code></pre>
+<p>Claude follows 08 Close a project/CLOSE.md: turns off its scheduled tasks (doesn't delete them), writes a final summary, archives drafts, and notes lessons for next time. Nothing happens until you OK the plan. Say <strong>pause this project</strong> instead to keep everything and just stop the runs.</p>
+<h2>Prompt 16: Undo a change (restore a shared file)</h2>
+<p>Use in any chat on the project.</p>
+<pre><code>restore &lt;file&gt; to &lt;when, e.g. before Tuesday&gt;
+</code></pre>
+<p>Claude lists the saved versions (Archive/_versions, the weekly backups, then Dropbox or Google Drive's version history), shows what's different, saves the current version first, and restores after the project lead's OK. It's logged in CHANGES.md.</p>
+<h2>Prompt 17: Change the project lead</h2>
+<p>Use in the Lead chat.</p>
+<pre><code>change project lead to &lt;name&gt;
+</code></pre>
+<p>Needs the current lead's OK (or the owner's, if the lead is unavailable). Claude updates the handover, the rules and the cheat sheet, moves the weekly backup task to the new lead's home computer (with their OK), and logs it.</p>
+<h2>Prompt 18: What's next?</h2>
+<p>Use in any chat on the project, whenever you're not sure what to do.</p>
+<pre><code>what's next?
+</code></pre>
+<p>Claude reads the handover, your brief and the trackers, skips anything that's still waiting on something else, and gives you one next step: what, where (which chat and model), and about how long.</p>
+<h2>Prompt 19: Fresh chat test (after setup)</h2>
+<p>Use once, right after Claude builds the project: open a <strong>new</strong> chat in the same Claude Project, connect the project folder, and paste:</p>
+<pre><code>Fresh chat test: using only PROJECT-HANDOVER.md and the files it points to, tell me (1) the project's goal and deadline, (2) the most important open item right now, and (3) which session and model I should use for &lt;a typical job&gt;. Then tell me anything in the handover that was unclear or missing.
+</code></pre>
+<p>If it can't answer, go back to the setup chat and say "the fresh chat test failed: <what was missing>".</p>
+</main>
+</body>
+</html>

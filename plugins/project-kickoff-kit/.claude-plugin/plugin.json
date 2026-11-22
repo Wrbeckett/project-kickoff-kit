@@ -1,0 +1,10 @@
+{
+  "name": "project-kickoff-kit",
+  "version": "1.8.0",
+  "description": "Start, audit, hand off, join, take over or close a project with Claude.",
+  "author": {
+    "name": "Wrbeckett"
+  },
+  "homepage": "https://github.com/Wrbeckett/project-kickoff-kit",
+  "license": "CC-BY-4.0 AND MIT"
+}

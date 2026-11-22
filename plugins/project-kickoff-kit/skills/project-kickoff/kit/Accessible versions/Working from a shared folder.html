@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Project Kickoff Kit: Working from a shared folder</title>
+<style>body{font-family:-apple-system,Helvetica,Arial,sans-serif;max-width:46em;margin:2em auto;
+padding:0 1em;line-height:1.55;color:#1F2328;font-size:1.05rem}h1{border-bottom:3px solid #2563A8;padding-bottom:.3em}
+h2{color:#1d4f88;margin-top:1.6em}table{border-collapse:collapse;width:100%;margin:1em 0}
+th,td{border:1px solid #9aa4b2;padding:.45em .6em;text-align:left;vertical-align:top}th{background:#E6ECF4}
+pre{background:#F3F4F6;padding:.8em;white-space:pre-wrap;border:1px solid #d0d7de}code{font-size:.95em}
+blockquote{border-left:4px solid #2563A8;margin-left:0;padding-left:1em}</style>
+</head>
+<body>
+<main>
+<h1>Working from a shared folder</h1>
+<p>For projects with more than one person (the <strong>Team</strong> level). Everyone's Claude works from <strong>one shared project folder</strong>, so everyone works from the latest information, with no copies passed around. These habits keep it trustworthy when several people's Claudes read and write the same files.</p>
+<h2>Set it up (owner, 10 min)</h2>
+<ol>
+<li><strong>Put the project folder in a shared place:</strong> Dropbox, Google Drive or OneDrive. Share it with each collaborator (<strong>Can edit</strong>).</li>
+<li><strong>Each person syncs it to their home computer</strong> and makes it <strong>available offline</strong> (Dropbox: right-click › Make available offline; Google Drive for desktop: right-click › Offline access › Available offline). Claude can only read what's on the computer.</li>
+<li><strong>Each person connects it</strong> to their own Claude chats: <strong>+ › Add folder</strong>.</li>
+<li>Tell the Lead session: <strong>"set this project up for a shared folder"</strong>. Claude adds the layout, CHANGES.md, ASSETS.md and the owners table, names the <strong>project lead</strong> and sets up <strong>backups</strong> (with your OK).</li>
+</ol>
+<p>On a Team or Enterprise Claude plan you can also share one Claude Project, so everyone's chats see the same Project docs. On individual plans, the shared folder does that job.</p>
+<h2>The layout</h2>
+<pre><code>&lt;Project&gt;/
+  &lt;Project&gt; - START HERE.pdf
+  00 Admin/
+    Handover and briefs/   shared docs + UPDATES-INBOX.md
+    CHANGES.md             the change log
+  People/
+    &lt;name&gt;/                each person's own files
+  02 Work in progress/     shared drafts (one owner each)
+  03 Final/                approved work only
+  04 Assets/
+    ASSETS.md              current versions
+  05 Reference/
+  Archive/
+    _versions/             copies saved before every edit
+    Backups/               weekly snapshots
+  _to_delete/
+</code></pre>
+<h2>The five habits</h2>
+<ol>
+<li><strong>Every shared file has one owner.</strong> The handover lists them ("Shared files and owners"). Only the owner's Claude edits that file. <strong>Protected</strong> files (marked in the same table) also need the project lead's OK first. Everyone else adds an <strong>ASK:</strong> line to UPDATES-INBOX.md, or edits only their own columns in a tracker.</li>
+<li><strong>Read CHANGES.md first.</strong> Before any job, each Claude reads the new lines since its last run, then re-reads the files that changed. That's how everyone stays current without re-reading everything.</li>
+<li><strong>Log every change to a shared file:</strong> one line in CHANGES.md: date, who, which file, what changed.</li>
+<li><strong>Use the current asset.</strong> ASSETS.md marks one version of each asset as current. Claude uses that one, and warns if asked to use a retired version.</li>
+<li><strong>Your own work goes in People/<you>/</strong> until it's ready to share. Then the file's owner moves it to the shared place and logs it.</li>
+</ol>
+<h2>The project lead</h2>
+<ul>
+<li>One person is the <strong>project lead</strong>, named in the handover (usually the project's owner). The lead approves changes to <strong>protected</strong> files and restores.</li>
+<li><strong>Protected files</strong> (default): the handover, rules, project choices, the owners table, everything in 03 Final and 04 Assets, and ASSETS.md. <strong>Working files</strong> (drafts, trackers, People/ folders) are edited by their owners as usual.</li>
+<li><strong>To change a protected file:</strong> add an ASK: line to UPDATES-INBOX.md ("ASK: update the logo in ASSETS.md to v4"). The lead's Lead session lists the requests waiting; the lead answers "OK" or "not now". The file's owner then makes the change, and CHANGES.md records "approved by <lead>".</li>
+<li><strong>Changing the lead:</strong> in the Lead chat, <strong>Prompt 17</strong> ("change project lead to <name>"). It needs the current lead's OK (or the owner's, if the lead is unavailable), and it's logged in CHANGES.md and PROJECT-CHOICES.md.</li>
+<li><strong>These are rules every collaborator's Claude follows, not locks.</strong> A person can still edit a file by hand. For real protection, the lead makes the protected folders <strong>view-only</strong> for everyone else in Dropbox or Google Drive (folder › Share › set people to "Can view"), where their plan allows it. Claude checks what's possible rather than assuming.</li>
+</ul>
+<h2>Backups and undo</h2>
+<ol>
+<li><strong>Before every edit:</strong> each Claude copies a shared file to <code>Archive/_versions/&lt;file&gt; &lt;YYYY-MM-DD HHMM&gt;</code> before changing it. Any change can be undone in seconds.</li>
+<li><strong>Weekly snapshot:</strong> a scheduled task zips 00 Admin, 03 Final and 04 Assets into <code>Archive/Backups/&lt;date&gt;.zip</code>. It runs on the lead's home computer (or inside the work window, on a laptop) and keeps the last 8; older ones move to _to_delete for the lead to clear.</li>
+<li><strong>The sync service's version history</strong> (Dropbox or Google Drive: right-click a file › Version history) is the last safety net. How far back it goes depends on the service and plan.</li>
+</ol>
+<p><strong>To undo something:</strong> in any chat on the project, type <strong>restore <file> to <when></strong> (Prompt 16), e.g. "restore ASSETS.md to before Tuesday". Claude lists the saved versions and shows what's different, saves the current version first (so the restore can be undone too), and restores after the lead's OK. It's logged in CHANGES.md.</p>
+<h2>When something clashes</h2>
+<ul>
+<li><strong>Sync conflict:</strong> Dropbox makes a "conflicted copy" (Google Drive shows two versions). Claude never picks one itself: it lists both, says what differs, and asks the file's owner.</li>
+<li><strong>Two people need the same file changed:</strong> both send ASK: lines; the owner decides.</li>
+<li><strong>Someone's Claude edited a file it doesn't own:</strong> the owner's Claude spots it from CHANGES.md and asks before keeping or undoing it. Nothing gets deleted; the old version stays in Archive or the sync service's version history.</li>
+</ul>
+<h2>For Claude</h2>
+<ul>
+<li>Shared-folder projects follow WORKFLOW-RULES rules 20–23 and this page.</li>
+<li>Before any job: read CHANGES.md since your last run (your brief records the last line you read), then the files it names; check for sync-conflict copies of the files you'll touch.</li>
+<li>Write only files your owner owns (handover "Shared files and owners") or files in People/<your owner>/. Anything else becomes an ASK: line in UPDATES-INBOX.md.</li>
+<li>After every change to a shared file: one line in CHANGES.md (re-read it right before writing; add at the bottom; never edit others' lines).</li>
+<li>Use only the assets ASSETS.md marks current; if a request points to a retired one, say so and ask.</li>
+<li>Protected files (owners table): change only after the project lead's OK, recorded in CHANGES.md ("approved by <lead>"). When running for the lead, list waiting ASK: lines for protected files at the start of each Lead run.</li>
+<li>Before editing any shared file, copy it to Archive/_versions/<file> <YYYY-MM-DD HHMM>; never overwrite or delete a version copy.</li>
+<li>Restore (Prompt 16): list versions (Archive/_versions, Archive/Backups, then the sync service's history), show the differences, save the current version, restore after the lead's OK, log it.</li>
+</ul>
+</main>
+</body>
+</html>

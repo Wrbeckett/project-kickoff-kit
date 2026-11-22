@@ -1,0 +1,29 @@
+# Project Kickoff Kit (README)
+
+A general-purpose way to run any project with Claude: a guided interview (new projects) or a read-only audit (existing projects), then a lightweight workflow built from templates: folders, a master handover, one Lead session plus only the work sessions needed, shared trackers where work passes between sessions, briefs and reports, and a weekly review + audit. People start with **00 START HERE.pdf**.
+
+Version 1.8, Nov 22, 2026. Full history: CHANGELOG.md. (1.8: "what's next?" helper, starter presets, blueprint in sections, what could go wrong, fresh chat test, Waits on, keep-it-lean step, LICENSE (CC BY 4.0; scripts MIT); optional plugin suggestions; Prompts 18–19. 1.7: project lead, protected files, backups and restore for shared folders; rules 22–23, Prompts 16–17. 1.6: the shared-folder option for teams: 09 Shared folder, CHANGES and ASSETS templates, one owner per shared file, rules 20–21. 1.5: works as a plugin, a folder or from GitHub; Quick start; Something's not working; close or pause a project (Prompt 15); phone use; kit checker (_build/check_kit.py). 1.4: a third path, 07 Join or take over a project: handover packs, JOIN and TAKEOVER, Prompts 11–13; home computer guidance for Mac and Windows, Prompt 14. 1.3: setup levels, updates inbox for teams, sensitive-information rule, handover size cap, review numbers, kit version line + Prompt 9 upgrade, KIT-FEEDBACK.md, MAINTAINING.md, accessible versions, monthly model check, user-adaptable defaults (MY-DEFAULTS.md, PROJECT-CHOICES.md, Prompt 10 "change: …"). 1.2: a recommended Claude model and effort for every kit step, session, scheduled task and kind of work; new MODEL-GUIDE template; new 06 Models and sessions cheat sheet (PDF + MD); model checks in the interview, audit, blueprint, rules, briefs, prompts and weekly review; _build/make_pdfs.py rebuilds every PDF. 1.1: Claude plan + usage budget in the interview, audit, blueprint, rules and weekly review; new USAGE-PLAN template).
+
+## Contents
+- **00 START HERE.pdf / .md**: what the kit is and which path to take.
+- **01 New project/**: New project - step by step (PDF + MD), **KICKOFF.md** (copy into the new project folder; Claude follows it), Interview question bank.md.
+- **02 Existing project/**: Existing project - step by step (PDF + MD), **AUDIT.md** (copy into the project folder; Claude follows it).
+- **03 Templates/**: PROJECT-HANDOVER, SESSION-BRIEF, WORKFLOW-RULES, TRACKER, WORKFLOW-REVIEW, CHEAT-SHEET, USAGE-PLAN, MODEL-GUIDE, **UPDATES-INBOX**, **PROJECT-CHOICES**, **HANDOVER-PACK** templates, **Setup levels**, Standard folder structure.
+- **04 Prompts to copy (PDF + MD)**: every prompt people paste.
+- **07 Join or take over a project/**: Hand off - step by step and Join or take over - step by step (PDF + MD), **HANDOVER-PACK.md** (Claude makes the pack), **JOIN.md** (a teammate joins a kit project), **TAKEOVER.md** (a new owner takes over a project someone started for them).
+- **06 Models and sessions cheat sheet (PDF + MD)**: which model (Haiku, Sonnet, Opus, Fable) and effort for each kit step, session and kind of work; kit defaults that each project's MODEL-GUIDE.md starts from.
+- **_build/make_pdfs.py**: rebuilds the kit's PDFs from their MD files (python3 _build/make_pdfs.py); it also writes the accessible HTML copies.
+- **Accessible versions/**: screen-reader-friendly HTML copies of every guide.
+- **CHANGELOG.md**: what changed in each version and what older projects could add (Prompt 9 uses it).
+- **MAINTAINING.md**: which files to update for each kind of change.
+- **MY-DEFAULTS-template.md**: a blank form; each person keeps their own filled-in MY-DEFAULTS.md in their own folder, and every kickoff and audit starts from it.
+- **00 QUICK START (PDF + MD)**: the one-page version. **00 Something's not working (PDF + MD)**: common problems and fixes.
+- **10 What's next/NEXT.md**: the "what's next?" helper (Prompt 18). **03 Templates/Presets/**: starter presets (event, course, website, client job, research). **LICENSE.md**: CC BY 4.0 for guides and templates, MIT for scripts.
+- **09 Shared folder/**: Working from a shared folder (PDF + MD): layout, owners, change log, current assets, sync conflicts.
+- **08 Close a project/CLOSE.md**: closing or pausing a finished project (Prompt 15).
+- **KIT-FEEDBACK.md**: problems and ideas about the kit, from real projects and the monthly model check.
+- **05 Skill/SKILL.md**: the "project-kickoff" Claude skill (same process, available in any chat once added).
+
+## For Claude
+**Finding the kit:** installed as a plugin, the project-kickoff skill's own folder holds the whole kit (in its kit/ subfolder); otherwise a connected "Project Kickoff Kit" folder; otherwise the kit's GitHub page (https://github.com/Wrbeckett/project-kickoff-kit, raw files). Paths in the kit's files are relative to the kit's top folder.
+If this folder is connected: KICKOFF.md, AUDIT.md, and in folder 07 HANDOVER-PACK.md, JOIN.md and TAKEOVER.md are the instructions; the templates are what you fill in; the question bank guides interviews. Ask, never assume. Everything in the kit is a default: the user's MY-DEFAULTS.md and each project's PROJECT-CHOICES.md win over it. Change nothing without the owner's OK. When improving the kit itself, follow MAINTAINING.md: update the MD file, then rebuild its PDF (python3 _build/make_pdfs.py), and bump the version line above. The model facts in 06 Models and sessions cheat sheet.md change when Anthropic releases or retires models: re-check them against Anthropic's current model guides, update the "checked" date, then rebuild.

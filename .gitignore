@@ -1,0 +1,8 @@
+.DS_Store
+*.new
+*.new.pdf
+__pycache__/
+KIT-FEEDBACK.md
+MY-DEFAULTS.md
+_build/publish/
+private-terms.txt
