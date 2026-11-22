@@ -2,6 +2,10 @@
 
 Each version lists what changed and **what a project built on an older version would need**, so Prompt 9 ("upgrade this project") can offer just those changes. Newest first.
 
+## 1.8.5 (Nov 22, 2026)
+Sensitive information is now the owner's decision: an always-asked interview question (question bank §5b) for new projects, audits, takeovers and joiners about personal information, the organization's privacy or AI policy and NDAs; rule 15 and the handover record the owner's own words. Until it's set, a temporary hold keeps personal information out.
+Projects: if your rule 15 still shows the old default, ask Lead to run question bank §5b with you and record your own rule.
+
 ## 1.8.4 (Nov 22, 2026)
 Exact plugin install steps from the Claude desktop app (Plugins › Add › Add marketplace › Add from a repository › Sync › Add) in the README, Quick start, the join/take-over guide, READ ME FIRST and troubleshooting; Download ZIP fallback when the plugin can't be installed.
 Projects: nothing to change.

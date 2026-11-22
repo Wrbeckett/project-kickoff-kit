@@ -41,7 +41,19 @@ Skip anything the owner's MY-DEFAULTS.md already answers (confirm it in the summ
 - Things Claude must never do (e.g. send emails, post, delete files, deploy, spend money, use certain tools)?
 - Brand, style, tone or accessibility rules? Legal, privacy, school or company policies?
 - Anything confidential that must stay out of shared files?
-- Will the project involve personal information about other people (students, clients, staff)? What does your organization's policy allow in shared files and AI tools?
+
+## 5b. Privacy and sensitive information (always ask; new projects, audits and takeovers)
+The owner decides this rule; Claude doesn't. Ask, then write their answer down in their own words.
+- Will this project involve personal information about other people (students, clients, customers, patients, staff, family)? What kinds (names, contact details, ID numbers, grades, health, accommodations, money)?
+- Does an organization you work for (school, employer, client) have a privacy policy, data rules or an AI-use policy that covers this work? Is Claude approved for that kind of information, on the account you'll use?
+- Are there NDAs, contracts or laws (privacy, anti-spam, health) that limit what can go into AI tools or shared folders?
+- So, your rule (multiple choice; recommend the safest that still lets the work happen):
+  a) No personal information about other people goes into Claude or the project files at all.
+  b) Only initials, codes or summaries; never names, numbers or details.
+  c) Some is allowed (say exactly what, and where it may be stored).
+  d) Not sure yet: I'll check (who and by when). Until then, the temporary hold below applies.
+- Does the rule cover shared folders and anything scheduled runs send (reports, emails)? Usually yes.
+Record the answer as rule 15 in WORKFLOW-RULES.md and the SENSITIVE INFORMATION line in the handover, in the owner's words. Offer to save it in their MY-DEFAULTS.md if it applies to all their projects for that organization. Until the owner sets it, keep personal information about other people out of project files, chats, trackers and scheduled tasks; this is a temporary hold, logged as an open question with a date, not the kit deciding the rule.
 
 ## 6. Time and rhythm
 - How many hours a week do you have for this? When (days, time of day)?

@@ -28,7 +28,7 @@ Edit this file yourself, or tell Claude: **"Update MY-DEFAULTS.md: <what>"**. Ea
 ## Always / never
 - Always: 
 - Never (on top of the kit's never-do list): 
-- Sensitive information rule (e.g. my organization's policy on student or client data): 
+- Sensitive information rule, in your words (e.g. "for my college work: no student names or details in Claude; initials only"), and which policy it follows: 
 
 ## Kit parts I usually skip
 - 

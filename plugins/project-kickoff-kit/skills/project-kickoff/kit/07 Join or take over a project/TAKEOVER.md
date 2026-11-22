@@ -27,7 +27,8 @@ Use 01 New project/Interview question bank.md for every topic the pack doesn't c
 - Claude plan, weekly reset, usage share; models in their picker (§6b).
 - Setup level (Solo, Standard or Team); their time and rhythm; how they like updates.
 - Their home computer (question bank §4b): the giver's computer won't run anything for them.
-- Their never-do list and the sensitive-information rule.
+- Their never-do list.
+- **Their sensitive-information rule** (question bank §5b): ask it fresh, even if the pack mentions privacy. The new owner's organization and policies decide it, not the giver's.
 - **The giver's role from now on** (the pack says what the giver offered): adviser or fully handed off; if adviser, what the giver may see or do, and how to reach them.
 End with the kit's 10-line summary and "Is this right? Anything to add or change?"
 

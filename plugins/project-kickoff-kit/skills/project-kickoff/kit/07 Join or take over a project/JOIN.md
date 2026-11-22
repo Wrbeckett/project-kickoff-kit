@@ -23,6 +23,7 @@ A 10-line summary of the project from the pack: goal, deadlines, people and who 
 ## Step 3: Short interview (only what's theirs; 3–5 questions a round)
 - Their role and responsibilities here; what repeats; what's one-off.
 - What they may read and change; what they must never touch (check against the owner's rules).
+- The project's sensitive-information rule (rule 15): confirm they've read it, and ask whether their own organization or role adds stricter limits (question bank §5b). Stricter wins for their work; anything that should change the project's rule becomes an ASK: line for the owner.
 - Their Claude plan, weekly reset and the share of their usage this project may use; models in their picker.
 - Their time, rhythm, time zone; how they want updates.
 - Tools and connectors they use for their part.

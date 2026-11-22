@@ -34,7 +34,8 @@ List what you couldn't work out, then ask in rounds. Always ask about:
 - What's working well that must not change.
 - Anything in the kit's standard setup they don't want (it goes in PROJECT-CHOICES.md). If the owner has a filled-in MY-DEFAULTS.md in a connected folder, use it as starting answers.
 - What's frustrating, slow or keeps going wrong.
-- Rules: never-do list, budget, approvals, privacy.
+- Rules: never-do list, budget, approvals.
+- **Sensitive information (always ask, question bank §5b):** what personal information the project holds or will hold, the organization's privacy or AI-use policy, NDAs, and the owner's rule in their own words. Report anything already stored against that rule (where, not what).
 - Time, rhythm and how the owner likes updates.
 - Claude plan, weekly reset, the share of weekly usage this project should take, what other projects need, and what to do if the project nears its share (question bank §6b).
 - Which models show in the owner's model picker, which one they use by default, whether Fable is included or uses paid credits, and which jobs Claude keeps getting wrong or takes too long on.

@@ -30,7 +30,7 @@ Lines marked **VERIFY** weren't checked against a source; check them before acti
 - UPDATE CHANNEL: the owner gives updates to the Lead session; Lead passes them on the same turn ("FROM LEAD" sections in briefs). Everyone else (team members, other sessions, scheduled runs) adds updates to UPDATES-INBOX.md, which Lead reads at the start of every run.
 - LEAD: the Lead session coordinates, routes and chases; it doesn't do other sessions' work; decisions stay with the owner.
 - Nothing involving money, posting, emails, deleting, deploying or accepting terms without the owner's explicit OK.
-- SENSITIVE INFORMATION: <the owner's rule. Default: no names, ID numbers, grades, accommodations, health or contact details of students, clients or staff in project docs, chats or scheduled tasks unless the organization's policy allows it; initials or codes where allowed.>
+- SENSITIVE INFORMATION: <the owner's rule, in their words (interview §5b); the policy or agreement it follows>. Until it's set: no personal information about other people in project files, chats, trackers or scheduled tasks (temporary hold).
 - Check every file you write (open it or compare a checksum). Never overwrite in place: new name, check, then replace.
 - Write for the owner in plain words with exact menu and file names.
 - More: WORKFLOW-RULES.md.
