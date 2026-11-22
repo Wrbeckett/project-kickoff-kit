@@ -2,7 +2,7 @@
 
 The owner wants to wrap up a project, or pause it for a long time. Make sure nothing keeps running or using their Claude usage, everything is easy to find later, and what was learned isn't lost. Write in plain words. Never assume; ask.
 
-**Finding the kit:** the files named here ("03 Templates/…", "07 Join or take over a project/…") are in the Project Kickoff Kit, wherever this person has it: (1) **installed as a plugin**: the project-kickoff skill's own folder holds the whole kit (in its kit/ subfolder); (2) a **connected "Project Kickoff Kit" folder**; (3) the kit's **GitHub page** (https://github.com/Wrbeckett/project-kickoff-kit; read the raw files). Use the first you can reach and say which. If none, ask the owner to install the plugin or connect the folder.
+**Finding the kit:** the files named here ("03 Templates/…", "07 Join or take over a project/…") are in the Project Kickoff Kit, wherever this person has it: (1) **installed as a plugin**: the project-kickoff skill's own folder holds the whole kit (in its kit/ subfolder); (2) a **connected "Project Kickoff Kit" folder**; (3) the kit's **GitHub page** (https://github.com/Wrbeckett/project-kickoff-kit; read the raw files). Use the first you can reach and say which. If none, ask the owner to install the plugin or connect the folder, and don't build anything until the full kit is reachable.
 
 ## Rules
 - **Nothing is deleted.** Scheduled tasks are turned off, not deleted. Files move to Archive, they aren't removed.

@@ -2,7 +2,7 @@
 
 The person in this chat is the **new owner** of a project someone else (the **giver**) started for them, for example a consultant who gathered their needs and is now handing the work over. They have a handover pack. Use it as the starting point for the interview, then set the project up with the Project Kickoff Kit in the new owner's own Claude. Write in plain words. Never assume; ask.
 
-**Finding the kit:** the files named here ("03 Templates/…", "07 Join or take over a project/…") are in the Project Kickoff Kit, wherever this person has it: (1) **installed as a plugin**: the project-kickoff skill's own folder holds the whole kit (in its kit/ subfolder); (2) a **connected "Project Kickoff Kit" folder**; (3) the kit's **GitHub page** (https://github.com/Wrbeckett/project-kickoff-kit; read the raw files). Use the first you can reach and say which. If none, ask the owner to install the plugin or connect the folder.
+**Finding the kit:** the files named here ("03 Templates/…", "07 Join or take over a project/…") are in the Project Kickoff Kit, wherever this person has it: (1) **installed as a plugin**: the project-kickoff skill's own folder holds the whole kit (in its kit/ subfolder); (2) a **connected "Project Kickoff Kit" folder**; (3) the kit's **GitHub page** (https://github.com/Wrbeckett/project-kickoff-kit; read the raw files). Use the first you can reach and say which. If none, ask the owner to install the plugin or connect the folder, and don't build anything until the full kit is reachable.
 
 ## Rules
 - **The pack is a starting point, not the truth.** Only the new owner's answers count as [stated]. Facts labelled [GIVER'S NOTES], [CLAUDE'S SUGGESTION] or [VERIFY] are confirmed, changed or dropped with them, never copied in as decisions.

@@ -2,7 +2,7 @@
 
 You are helping the **giver** (the person who has the project's information) make a handover pack: one Markdown file that lets another person's Claude start from what is already known instead of a blank interview. The **receiver** is the person who gets it. Write for the giver in plain words. Never assume; ask.
 
-**Finding the kit:** the files named here ("03 Templates/…", "07 Join or take over a project/…") are in the Project Kickoff Kit, wherever this person has it: (1) **installed as a plugin**: the project-kickoff skill's own folder holds the whole kit (in its kit/ subfolder); (2) a **connected "Project Kickoff Kit" folder**; (3) the kit's **GitHub page** (https://github.com/Wrbeckett/project-kickoff-kit; read the raw files). Use the first you can reach and say which. If none, ask the owner to install the plugin or connect the folder.
+**Finding the kit:** the files named here ("03 Templates/…", "07 Join or take over a project/…") are in the Project Kickoff Kit, wherever this person has it: (1) **installed as a plugin**: the project-kickoff skill's own folder holds the whole kit (in its kit/ subfolder); (2) a **connected "Project Kickoff Kit" folder**; (3) the kit's **GitHub page** (https://github.com/Wrbeckett/project-kickoff-kit; read the raw files). Use the first you can reach and say which. If none, ask the owner to install the plugin or connect the folder, and don't build anything until the full kit is reachable.
 
 There are two kinds of pack:
 - **JOIN:** a teammate joins a project already set up with this kit. The giver stays the owner. The receiver gets their own sessions for their own responsibilities (JOIN.md).

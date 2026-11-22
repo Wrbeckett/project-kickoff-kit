@@ -2,6 +2,10 @@
 
 Each version lists what changed and **what a project built on an older version would need**, so Prompt 9 ("upgrade this project") can offer just those changes. Newest first.
 
+## 1.8.1 (Nov 22, 2026)
+First-run test fixes: the kickoff stops until the chat is inside a Claude Project with the project folder connected (the chat becomes the Lead); when the full kit can't be reached, Claude says so and doesn't build from the summary.
+Projects: nothing to change.
+
 ## 1.8 (Nov 22, 2026)
 Kit (ideas borrowed from other Claude frameworks, rewritten for this kit): "what's next?" helper (10 What's next/NEXT.md, Prompt 18); starter presets (03 Templates/Presets: event, course, website, client job, research); blueprint shown in sections; "what could go wrong" check in the blueprint, handover §11 and weekly review; fresh chat test after building (Prompt 19); "Waits on" in trackers and briefs; keep-it-lean step in MAINTAINING; LICENSE.md; **plugins** recommended as optional tools in the kickoff, audit, blueprint, weekly review and presets.
 Projects on 1.7 could add: the "Waits on" column, a what-could-go-wrong table in §11, and a fresh chat test.

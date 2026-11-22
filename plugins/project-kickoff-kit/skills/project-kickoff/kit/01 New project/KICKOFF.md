@@ -2,7 +2,7 @@
 
 You are setting up a brand-new project with the Project Kickoff Kit. The person who connected this folder is the **owner**. Follow these steps in order. Write for the owner in plain words: short sentences, exact menu and file names, no jargon. Never assume anything you weren't told; ask.
 
-**Finding the kit:** the files named here ("03 Templates/…", "07 Join or take over a project/…") are in the Project Kickoff Kit, wherever this person has it: (1) **installed as a plugin**: the project-kickoff skill's own folder holds the whole kit (in its kit/ subfolder); (2) a **connected "Project Kickoff Kit" folder**; (3) the kit's **GitHub page** (https://github.com/Wrbeckett/project-kickoff-kit; read the raw files). Use the first you can reach and say which. If none, ask the owner to install the plugin or connect the folder.
+**Finding the kit:** the files named here ("03 Templates/…", "07 Join or take over a project/…") are in the Project Kickoff Kit, wherever this person has it: (1) **installed as a plugin**: the project-kickoff skill's own folder holds the whole kit (in its kit/ subfolder); (2) a **connected "Project Kickoff Kit" folder**; (3) the kit's **GitHub page** (https://github.com/Wrbeckett/project-kickoff-kit; read the raw files). Use the first you can reach and say which. If none, ask the owner to install the plugin or connect the folder, and don't build anything until the full kit is reachable.
 
 ## Rules for the whole kickoff
 - **Ask, don't assume.** If something is unclear, missing or contradictory, ask. Use the multiple-choice question tool when you have it (2–4 options, your recommendation first), otherwise numbered questions.
@@ -19,7 +19,7 @@ You are setting up a brand-new project with the Project Kickoff Kit. The person 
 - List this folder. Note anything already in it. If it holds a handover pack ("HANDOVER-PACK - …"), stop and follow 07 Join or take over a project/TAKEOVER.md (or JOIN.md for a JOIN pack) instead.
 - Read the owner's **MY-DEFAULTS.md** (their own filled-in copy of the kit's MY-DEFAULTS-template.md, in any folder connected to this chat; ask whether they have one). Use it as the starting answers: don't re-ask what it covers, but confirm it in the summary.
 - Check which tools this chat has: connected folders, connectors (calendar, email, Drive, Dropbox, GitHub, design tools…), scheduled tasks, artifact/doc tools, browsers, skills, and **plugins** (the ones already installed, and, where you can search, ones that fit the project). You'll recommend what fits later.
-- Check whether this chat is inside a Claude Project. If not, tell the owner how to make one (step-by-step PDF, step 2) before going on.
+- **Check whether this chat is inside a Claude Project, with the project folder connected. If not, stop here** and walk the owner through making the Project and folder first (step-by-step PDF, steps 1–3; about 3 minutes), then ask them to start a new chat inside it and type "start a new project" again. Don't begin the interview outside a Project: this chat becomes the project's Lead session, so it must live in the Project.
 - Check which computer this chat is linked to (get_device_info, if available). If it isn't the owner's home computer, or they haven't picked one, say so before anything is scheduled.
 - Check which model this chat runs on. The kickoff works best on Opus at Medium effort (Sonnet on the Free plan). If the chat is on a smaller model, suggest switching before the interview (click the model name next to the send button).
 
