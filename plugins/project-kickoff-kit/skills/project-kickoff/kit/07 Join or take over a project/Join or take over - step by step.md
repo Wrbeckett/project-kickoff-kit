@@ -31,7 +31,7 @@ Claude sums up the project in 10 lines; say what's off. Then a few questions abo
 ## B. Taking over a project someone started for you
 
 ### 1. Make your project folder (2 min)
-Make a folder named after the project (Dropbox, Google Drive, iCloud or your computer). Put the **pack** and any files that came with it inside.
+Got a **zip**? Double-click it to unzip, open **READ ME FIRST.txt**, and move the unzipped folder to where you'll keep the project (Dropbox, Google Drive, iCloud or your computer): that's your project folder. No zip? Make a folder named after the project and put the **pack** and any files that came with it inside.
 
 ### 2. Make a Claude Project (2 min)
 **Projects › New project**, same name. Start a new chat inside it.

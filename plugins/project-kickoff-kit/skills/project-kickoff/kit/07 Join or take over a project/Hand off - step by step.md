@@ -29,7 +29,7 @@ Claude leaves these out unless you say otherwise:
 Check the "left out" list, change anything, then say **"save it"**.
 
 ## 5. Send it
-- **Taking over:** email the pack (and the "handover files" folder, if Claude made one) or put them in a folder you share with them.
+- **Taking over:** say **"zip it for <name> with a READ ME FIRST"**. Claude makes one zip with the pack, any handover files and a plain-words READ ME FIRST. Email it (up to about 20 MB) or send a Dropbox or Drive link. Passwords and logins never go in the zip: give those separately.
 - **Joining:** share the project folder with them; the pack is inside it.
 
 Then send them **"Join or take over - step by step.pdf"** from the kit's folder 07, or the kit's link if it's on GitHub.

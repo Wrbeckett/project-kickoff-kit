@@ -48,7 +48,12 @@ Save as **"HANDOVER-PACK - <Project> - <receiver> - <YYYY-MM-DD>.md"** (new name
 
 ## Step 6: Review with the giver
 Show a short summary: what's in, what's left out (headings only), the [VERIFY] list, the files to send. Make their changes, then save the final version and check it.
-Tell the giver how to send it: email or a shared folder for a TAKEOVER; for a JOIN, share the project folder (and the pack in it). Point the receiver to **07 Join or take over a project › Join or take over - step by step.pdf**.
+**Offer a zip (TAKEOVER; recommended for anyone new to this):** with the giver's OK, make **"<Project> - handover for <receiver>.zip"** next to the pack, holding one top folder named after the project with:
+- the pack;
+- the "handover files" folder, if any;
+- **READ ME FIRST.txt** in plain words: (1) unzip this (double-click, Mac or Windows); (2) move the folder to where you'll keep the project, ideally Dropbox, Google Drive or iCloud on the computer that stays on; (3) in the Claude desktop app make a Claude Project with the same name, start a chat in it, + › Add folder › this folder, pick Opus with Medium effort; (4) install the Project Kickoff Kit plugin if you haven't (https://github.com/Wrbeckett/project-kickoff-kit); (5) type "take over this project". Who to ask: <giver, how to reach them>.
+Never put passwords, keys or logins in the zip (they're shared separately, in person). Never include the kit itself. Check the zip opens and lists the right files; tell the giver its size (email usually takes up to about 20 MB; bigger, send a Dropbox or Drive link).
+Tell the giver how to send it: the zip by email or link (or a shared folder) for a TAKEOVER; for a JOIN, share the project folder (and the pack in it). Point the receiver to **07 Join or take over a project › Join or take over - step by step.pdf**.
 
 ## Step 7: Log it
 - JOIN (kit project): add one line to WORKFLOW-REVIEW.md and the handover's §12 Next steps: "Handover pack for <receiver> made <date>; add them to People and the cheat sheet once they've joined." If UPDATES-INBOX.md doesn't exist, offer to create it (Team level), with the owner's OK.

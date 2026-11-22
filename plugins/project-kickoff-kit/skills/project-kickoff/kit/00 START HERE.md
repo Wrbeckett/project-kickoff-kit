@@ -59,7 +59,7 @@ Outside the window, close the laptop whenever you like. Cloud-only jobs still ru
 
 ## How it works in 5 steps
 
-1. **Make the project folder** and copy one file from this kit into it (KICKOFF.md for new, AUDIT.md for existing).
+1. **Make the project folder.** Using the kit plugin, that's all. Using the shared kit folder, also copy one file into it (KICKOFF.md for new, AUDIT.md for existing).
 2. **Make a Claude Project** with the same name, and connect the folder to a chat (the + menu › Add folder).
 3. **Paste one prompt** from "04 Prompts to copy". Claude reads the file and starts.
 4. **Answer Claude's questions.** If your project is an event, a course, a website, a client job or research, Claude offers a **starter preset** so there's less to answer. Claude shows the plan a section at a time, checks what could go wrong, and after building asks you for a 2-minute fresh chat test. New project: an interview. Existing project: an audit, then questions about anything unclear. Either way Claude asks which Claude plan you have and how much of your weekly usage this project may use.

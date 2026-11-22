@@ -3,6 +3,7 @@
 Copy the text in the box and paste it into a Claude chat. Replace anything in <angle brackets>.
 
 ## Prompt 1: Start a new project
+With the kit plugin installed, just type **start a new project**. The prompt below is for the shared kit folder.
 Use in a new chat, inside the project's Claude Project, with the project folder connected (it contains KICKOFF.md).
 
 ```
@@ -10,6 +11,7 @@ Please read KICKOFF.md in the connected folder and start the new-project kickoff
 ```
 
 ## Prompt 2: Audit an existing project
+With the kit plugin installed, just type **audit this project** (and paste your website links). The prompt below is for the shared kit folder.
 Use in a new chat, inside the project's Claude Project, with the project folder connected (it contains AUDIT.md).
 
 ```

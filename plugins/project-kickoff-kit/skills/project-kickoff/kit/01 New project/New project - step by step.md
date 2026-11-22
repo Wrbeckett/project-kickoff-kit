@@ -5,10 +5,8 @@ About 10 minutes of setup, then a 20–40 minute interview with Claude. You'll n
 ## 1. Make the project folder (2 min)
 1. In Finder (or your file app), open the place your projects live, e.g. **Dropbox**.
 2. Make a new folder named after the project, e.g. **"Spring Gala 2027"**.
-3. Open the **Project Kickoff Kit** folder › **01 New project**.
-4. **Copy** (don't move) **KICKOFF.md** into your new project folder.
-
-You should see: your project folder with one file in it, KICKOFF.md.
+3. **Using the kit plugin? Stop here:** an empty folder is all you need.
+4. **Using the shared kit folder instead?** Open **Project Kickoff Kit › 01 New project** and **copy** (don't move) **KICKOFF.md** into your new project folder.
 
 ## 2. Make a Claude Project (2 min)
 1. Open the **Claude** app **on your home computer**: the Mac or PC that stays on (see START HERE, "Your home computer"). Scheduled tasks run on the computer you set them up on.
@@ -25,7 +23,7 @@ You should see: your project folder with one file in it, KICKOFF.md.
 You should see: the folder's name shown as connected in the chat.
 
 ## 4. Paste the start prompt (1 min)
-Copy **Prompt 1** from **04 Prompts to copy** and paste it into the chat:
+With the plugin, just type **start a new project**. With the kit folder, copy **Prompt 1** from **04 Prompts to copy** and paste it into the chat:
 
 > Please read KICKOFF.md in the connected folder and start the new-project kickoff. Ask me everything you need before you build anything.
 

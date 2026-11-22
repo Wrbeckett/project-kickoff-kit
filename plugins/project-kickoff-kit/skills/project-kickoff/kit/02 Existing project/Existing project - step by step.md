@@ -2,9 +2,9 @@
 
 About 10 minutes of setup. Claude then audits everything it can reach, asks you questions, and gives you a recommendations report. Nothing changes until you approve it.
 
-## 1. Put the audit file in the project folder (1 min)
-1. Open the **Project Kickoff Kit** folder › **02 Existing project**.
-2. **Copy** (don't move) **AUDIT.md** into the project's main folder.
+## 1. Put the audit file in the project folder (1 min; skip it if you use the kit plugin)
+1. **Using the kit plugin?** Skip this step.
+2. **Using the shared kit folder?** Open **Project Kickoff Kit › 02 Existing project** and **copy** (don't move) **AUDIT.md** into the project's main folder.
 
 ## 2. Open (or make) the Claude Project (2 min)
 Do this on your **home computer**, the Mac or PC that stays on (see START HERE, "Your home computer"). Scheduled tasks run on the computer you set them up on.
@@ -18,7 +18,7 @@ Do this on your **home computer**, the Mac or PC that stays on (see START HERE, 
 3. Have ready: the website addresses and any shared links the project uses, and a screenshot of **Settings › Usage** (your Claude plan, weekly limit and reset time).
 
 ## 4. Paste the audit prompt (1 min)
-Copy **Prompt 2** from **04 Prompts to copy**:
+With the plugin, just type **audit this project** (and paste your website links). With the kit folder, copy **Prompt 2** from **04 Prompts to copy**:
 
 > Please read AUDIT.md in the connected folder and audit this project: folders, files, this Project's docs, past chats, scheduled tasks, websites and connected apps. Read only; change nothing. Then ask me about anything unclear before you write the report.
 
