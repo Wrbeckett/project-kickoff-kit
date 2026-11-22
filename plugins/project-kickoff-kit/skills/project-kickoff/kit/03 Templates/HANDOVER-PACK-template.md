@@ -36,8 +36,14 @@ Made by <giver> with Claude on <date> · Project Kickoff Kit v<version> · Pages
 ## 9. Research, notes and ideas
 - Each with its label and source.
 
-## 10. Files sent with this pack
+## 10. Files with this pack
+**In this zip / folder:**
 | File | What it is | Why it matters |
+|---|---|---|
+| | | |
+
+**Online (not in the zip):**
+| File or page | Where | Why it matters |
 |---|---|---|
 
 ## 11. Interview topics

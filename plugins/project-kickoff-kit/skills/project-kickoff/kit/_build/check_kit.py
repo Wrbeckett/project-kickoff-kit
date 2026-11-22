@@ -26,7 +26,7 @@ if os.path.exists(_pt):
     PRIVATE_TERMS += [w.strip() for w in open(_pt, encoding="utf-8") if w.strip() and not w.startswith("#")]
 PLACEHOLDERS = ["<KIT-URL>", "<COPYRIGHT HOLDER>"]
 # Public addresses that are meant to be published (ignored by the privacy scan)
-ALLOWED = ["github.com/Wrbeckett/project-kickoff-kit", "W.R. Beckett"]
+ALLOWED = ["github.com/Wrbeckett/project-kickoff-kit", "Wrbeckett/project-kickoff-kit", "W.R. Beckett"]
 # Template placeholders like <Project> are fine; these are not.
 
 problems, warnings = [], []

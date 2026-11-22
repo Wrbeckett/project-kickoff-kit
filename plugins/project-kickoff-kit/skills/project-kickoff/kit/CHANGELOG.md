@@ -2,6 +2,10 @@
 
 Each version lists what changed and **what a project built on an older version would need**, so Prompt 9 ("upgrade this project") can offer just those changes. Newest first.
 
+## 1.8.3 (Nov 22, 2026)
+From the first real handover pack: READ ME FIRST now starts with getting Claude and the desktop app, installs the kit plugin before the project chat is made (with the exact steps), and the pack's files list separates "in this zip" from "online".
+Projects: nothing to change.
+
 ## 1.8.2 (Nov 22, 2026)
 Hand-off: Claude offers a zip for a takeover (the pack, handover files and a plain-words READ ME FIRST.txt; never logins). Step-by-step guides: with the kit plugin, no need to copy KICKOFF.md or AUDIT.md into the project folder.
 Projects: nothing to change.
