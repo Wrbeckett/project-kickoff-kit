@@ -7,7 +7,8 @@
 ## Get started (about 15 minutes, once)
 
 1. **Claude:** a paid plan (Pro or higher) and the **Claude desktop app** (Mac or Windows) on your **home computer**, the one that stays on.
-2. **Add the kit as a plugin.** In Claude's plugin settings, add a marketplace from a repository and enter **`Wrbeckett/project-kickoff-kit`**, then install **Project Kickoff Kit**. No GitHub account needed.
+2. **Add the kit as a plugin.** In the Claude desktop app: **Plugins** (left sidebar) › **Add** (top right) › **Add marketplace** › **Add from a repository** › type **`Wrbeckett/project-kickoff-kit`** › **Sync**, then click **Project kickoff kit** › **Add**. Claude shows a reminder to add only marketplaces you trust; that's normal. No GitHub account needed.
+   - Can't install the plugin? On the kit's GitHub page (github.com/Wrbeckett/project-kickoff-kit) click the green **Code** button › **Download ZIP**, unzip it, and connect that folder in your chat (**+ › Add folder**). The kit works the same way.
    - Claude Code: `/plugin marketplace add Wrbeckett/project-kickoff-kit`, then `/plugin install project-kickoff-kit@project-kickoff-kit`.
 3. **Keep the home computer awake while plugged in** (or let Claude set a work window if it's a laptop): see [START HERE](plugins/project-kickoff-kit/skills/project-kickoff/kit/00%20START%20HERE.pdf), "Your home computer".
 4. *Optional:* copy [MY-DEFAULTS-template.md](plugins/project-kickoff-kit/skills/project-kickoff/kit/MY-DEFAULTS-template.md) to a folder of your own, fill it in, and connect that folder when you start a project.

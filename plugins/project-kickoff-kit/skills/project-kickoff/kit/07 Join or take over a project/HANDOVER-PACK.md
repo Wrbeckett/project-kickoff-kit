@@ -55,7 +55,7 @@ Show a short summary: what's in, what's left out (headings only), the [VERIFY] l
   0. **Get Claude:** sign up (a paid plan is needed for the kit plugin; the pack says which plan was discussed) and install the **Claude desktop app** on the computer that stays on.
   1. **Unzip this** (double-click, Mac or Windows).
   2. **Move the folder** to where you'll keep the project, ideally Dropbox, Google Drive or iCloud on that computer.
-  3. **Install the kit plugin** (before making the chat, so it's loaded): in Claude's plugin settings, add a marketplace from a repository, enter **Wrbeckett/project-kickoff-kit**, then install **Project Kickoff Kit**. (Using the shared kit folder instead? Connect it in step 4.)
+  3. **Install the kit plugin** (before making the chat, so it's loaded): in the Claude desktop app: **Plugins** (left sidebar) › **Add** (top right) › **Add marketplace** › **Add from a repository** › type **Wrbeckett/project-kickoff-kit** › **Sync**, then click **Project kickoff kit** › **Add**. If that doesn't work: GitHub page › **Code** › **Download ZIP**, unzip, and connect that folder in step 4. (Using a shared kit folder instead? Connect it in step 4.)
   4. **Make a Claude Project** with the same name, start a **new** chat in it, **+ › Add folder** › this folder, pick **Opus** with **Medium** effort.
   5. **Type "take over this project".**
   Then: who to ask (<giver, how to reach them>), and "no passwords or logins are in this folder".

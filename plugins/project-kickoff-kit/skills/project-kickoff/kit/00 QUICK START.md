@@ -4,7 +4,7 @@ One page. Everything else in the kit is there for when you need it.
 
 ## Once (15 min)
 1. **Get Claude:** a paid plan (Pro or higher) and the **Claude desktop app** on the computer that stays on: your **home computer** (Mac or PC).
-2. **Add the kit:** install the Project Kickoff Kit plugin (see the kit's GitHub page), or connect the kit folder someone shared with you.
+2. **Add the kit:** in the Claude desktop app, **Plugins** (left sidebar) › **Add** (top right) › **Add marketplace** › **Add from a repository** › type **Wrbeckett/project-kickoff-kit** › **Sync**, then click **Project kickoff kit** › **Add**. Or connect the kit folder someone shared with you. Can't install the plugin? On the kit's GitHub page (github.com/Wrbeckett/project-kickoff-kit) click the green **Code** button › **Download ZIP**, unzip it, and connect that folder in your chat (**+ › Add folder**). The kit works the same way.
 3. **Stop the home computer sleeping while it's plugged in** (START HERE › "Your home computer" shows where). On a laptop, Claude will set a **work window** instead.
 
 ## Each project (10 min, then answer Claude's questions)

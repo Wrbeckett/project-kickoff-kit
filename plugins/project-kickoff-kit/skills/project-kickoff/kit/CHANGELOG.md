@@ -2,6 +2,10 @@
 
 Each version lists what changed and **what a project built on an older version would need**, so Prompt 9 ("upgrade this project") can offer just those changes. Newest first.
 
+## 1.8.4 (Nov 22, 2026)
+Exact plugin install steps from the Claude desktop app (Plugins › Add › Add marketplace › Add from a repository › Sync › Add) in the README, Quick start, the join/take-over guide, READ ME FIRST and troubleshooting; Download ZIP fallback when the plugin can't be installed.
+Projects: nothing to change.
+
 ## 1.8.3 (Nov 22, 2026)
 From the first real handover pack: READ ME FIRST now starts with getting Claude and the desktop app, installs the kit plugin before the project chat is made (with the exact steps), and the pack's files list separates "in this zip" from "online".
 Projects: nothing to change.

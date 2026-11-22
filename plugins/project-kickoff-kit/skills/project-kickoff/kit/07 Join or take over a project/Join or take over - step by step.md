@@ -5,7 +5,7 @@ For the person **receiving** a handover pack: a teammate joining a project someo
 ## What you need
 - A Claude account and the **Claude desktop app** (Mac or Windows) on your **home computer**: the one that stays on, where you'll start the project's sessions and scheduled tasks. Turn off automatic sleep while it's plugged in and leave the app open (the kit's START HERE shows how on Mac and Windows).
 - The **handover pack** (a file named "HANDOVER-PACK - …") and any files sent with it.
-- The **Project Kickoff Kit**: install the plugin **before** you make the project's chat (Claude's plugin settings › add a marketplace from a repository › **Wrbeckett/project-kickoff-kit** › install **Project Kickoff Kit**), or connect the shared kit folder.
+- The **Project Kickoff Kit**: install the plugin **before** you make the project's chat (in the Claude desktop app: **Plugins** (left sidebar) › **Add** (top right) › **Add marketplace** › **Add from a repository** › type **Wrbeckett/project-kickoff-kit** › **Sync**, then click **Project kickoff kit** › **Add**), or connect the shared kit folder.
 
 ## A. Joining a teammate's project
 
