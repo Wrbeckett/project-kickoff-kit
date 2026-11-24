@@ -2,7 +2,7 @@
 
 **Run any project with Claude, from kickoff to close.** Claude interviews you, builds a simple, organized setup (folders, a handover file every chat reads first, sessions with clear jobs, the right Claude model for each job, a usage plan, weekly reviews), and asks before it changes anything. Works for websites, products, courses, events, client work and research.
 
-**New here?** Read the one-page [Quick start (PDF)](plugins/project-kickoff-kit/skills/project-kickoff/kit/00%20QUICK%20START.pdf). **Stuck?** [Something's not working (PDF)](plugins/project-kickoff-kit/skills/project-kickoff/kit/00%20Something%27s%20not%20working.pdf).
+**What do I type?** See the one-sheet [What to type (PDF)](plugins/project-kickoff-kit/skills/project-kickoff/kit/00%20What%20to%20type.pdf). **New here?** Read the one-page [Quick start (PDF)](plugins/project-kickoff-kit/skills/project-kickoff/kit/00%20QUICK%20START.pdf). **Stuck?** [Something's not working (PDF)](plugins/project-kickoff-kit/skills/project-kickoff/kit/00%20Something%27s%20not%20working.pdf).
 
 ## Get started (about 15 minutes, once)
 
@@ -29,6 +29,8 @@
 | Not sure what to do next | **what's next?** |
 | Wrap up a finished project | **close this project** |
 | Undo a change to a shared file | **restore &lt;file&gt; to &lt;when&gt;** |
+| Add something new to the project | **add to this project: …** |
+| Add a person and their role | **add a collaborator: &lt;name&gt;** |
 
 4. Answer Claude's questions. Nothing is built, sent, bought or deleted without your OK.
 

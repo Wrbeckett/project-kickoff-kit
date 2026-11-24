@@ -24,6 +24,8 @@ One page. Everything else in the kit is there for when you need it.
 | Wrap up a finished project | **close this project** |
 | Not sure what to do next | **what's next?** |
 | Undo a change to a shared file | **restore <file> to <when>** |
+| Add something new to the project | **add to this project: …** |
+| Add a person and their role | **add a collaborator: <name>** |
 
 6. **Answer Claude's questions.** "I don't know yet" is fine. Nothing gets built, sent, bought or deleted without your OK.
 7. **Open the START HERE PDF** Claude makes for your project. Your first chat is now the **Lead**: give it your updates ("done 3, 5").
@@ -31,4 +33,5 @@ One page. Everything else in the kit is there for when you need it.
 ## Good to know
 - **Want something different?** Tell Lead "change: …". Everything in the kit can be changed.
 - **From your phone:** you can post updates in your Lead chat with the Claude mobile app. Start new sessions and scheduled tasks on the home computer.
+- **Every prompt on one sheet:** **00 What to type**.
 - **Stuck?** Open **00 Something's not working**.

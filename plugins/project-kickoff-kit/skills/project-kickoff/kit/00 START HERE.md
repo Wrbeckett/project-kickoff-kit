@@ -1,6 +1,6 @@
 # Project Kickoff Kit: Start Here
 
-**In a hurry?** Open **00 QUICK START.pdf** (one page). **Stuck?** Open **00 Something's not working.pdf**.
+**In a hurry?** Open **00 QUICK START.pdf** (one page). **What do I type?** **00 What to type.pdf** lists every prompt on one sheet. **Stuck?** Open **00 Something's not working.pdf**.
 
 **What this is:** a ready-made way to run any project with Claude, so the work stays organized, nothing gets lost between chats, and you always know what to do next. It works for a brand-new project or one that's already under way. It works for any kind of project: a website, a product, a course, an event, a client build, a research job.
 
@@ -21,6 +21,7 @@
 | Starting something new | **01 New project › New project - step by step.pdf** | 10 min setup + a 20–40 min interview |
 | A project already exists (folders, files, past chats) | **02 Existing project › Existing project - step by step.pdf** | 10 min setup + Claude's audit + your answers |
 | Someone is joining your project, or taking over one you started for them | **07 Join or take over a project › Hand off - step by step.pdf** | 10 min + a few minutes to review the pack |
+| You want to add something new to a project, or add, change or remove a person | **11 Grow a project › Grow a project - step by step.pdf** | 5–15 min |
 | Your project is finished, or on hold | Type **close this project** (or **pause this project**) in its Lead chat | 5 min + your OKs |
 | You're joining a project, or taking one over, and got a handover pack | **07 Join or take over a project › Join or take over - step by step.pdf** | 10 min setup + 10–30 min with Claude |
 
@@ -72,6 +73,7 @@ Outside the window, close the laptop whenever you like. Cloud-only jobs still ru
 | 00 START HERE.pdf | This guide |
 | 00 QUICK START.pdf | The one-page version of this guide |
 | 00 Something's not working.pdf | Common problems and their fixes |
+| 00 What to type.pdf | Every prompt on one sheet: what to type, where, and what it does |
 | 01 New project | Step-by-step PDF, KICKOFF.md (the file Claude reads), the interview question bank |
 | 02 Existing project | Step-by-step PDF, AUDIT.md (the file Claude reads) |
 | 03 Templates | The files Claude fills in for each project: handover, session brief, rules, tracker, weekly review, cheat sheet, usage plan, model guide, updates inbox, project choices, handover pack, setup levels, folder structure |
@@ -81,6 +83,7 @@ Outside the window, close the laptop whenever you like. Cloud-only jobs still ru
 | 07 Join or take over a project | Step-by-step PDFs for handing a project over and for receiving it, plus HANDOVER-PACK.md, JOIN.md and TAKEOVER.md (the files Claude reads) |
 | 08 Close a project | CLOSE.md: what Claude does when you say "close this project" |
 | 10 What's next | NEXT.md: what Claude does when you ask "what's next?" |
+| 11 Grow a project | Step-by-step PDF, ADD.md (add something new) and PEOPLE.md (add, change or remove a collaborator) |
 | 09 Shared folder | Working from a shared folder: how a team keeps one up-to-date project folder (PDF + text) |
 | _build | The script that rebuilds the kit's PDFs (for whoever maintains the kit) |
 | Accessible versions | Every guide as a screen-reader-friendly web page (open in any browser) |

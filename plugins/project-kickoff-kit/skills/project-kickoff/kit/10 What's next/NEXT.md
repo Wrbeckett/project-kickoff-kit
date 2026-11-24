@@ -14,6 +14,7 @@ No handover yet? The project isn't set up: the next step is "start a new project
 ## Pick the step
 - **Skip anything blocked:** a row or task whose "Waits on" isn't done yet, or a decision still waiting for someone. Mention a blocker only if it's the reason nothing else can move.
 - **Prefer, in order:** something overdue or due today → a decision someone is waiting on from this person → the first item in §12 Next steps → the oldest open task that isn't blocked.
+- **An idea or request keeps coming up** (in UPDATES-INBOX, the ideas log or the owner's messages) **but has no home in the setup?** Suggest "add to this project: …" (or "add a collaborator" if it needs a person).
 - **Nothing open?** Suggest the weekly review, a "what could go wrong" check of the next phase, or "close this project" if the goal is met.
 
 ## Answer (5 lines at most)

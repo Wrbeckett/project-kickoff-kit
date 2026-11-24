@@ -10,6 +10,7 @@ Owner: Lead session. Runs: <day, time> (scheduled task <ID>).
    - **Numbers** (one line each, this week vs last): share of weekly usage used against the project's share; jobs redone or corrected; reports and briefs the owner actually read. Three numbers, no more.
    - **Runs:** any scheduled run that failed or never fired (computer asleep, offline, Claude app closed, folder not connected, waiting for an approval)? Each with the fix.
    - **What could go wrong:** any warning sign from the handover's §11 showing up? Add new risks.
+   - **Growing:** ideas or requests that came up twice or more but don't fit any session: suggest "add to this project" for each; work that needs another person: suggest "add a collaborator".
    - **Setup level:** still right? Suggest moving up (or down) a level only with evidence.
    - **For the kit:** anything about the kit itself (not this project) goes to KIT-FEEDBACK.md if the kit folder is connected and writable, or the list below for the owner to pass on.
    - **B. Tools & resources:** plugins, connectors, skills, apps, processes that fit a real need (max 5; cost + effort; at most 1–2 new plugins, and only for a need seen this week).

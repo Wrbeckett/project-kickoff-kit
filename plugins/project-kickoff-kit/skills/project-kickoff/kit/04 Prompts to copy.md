@@ -160,3 +160,33 @@ Fresh chat test: using only PROJECT-HANDOVER.md and the files it points to, tell
 ```
 
 If it can't answer, go back to the setup chat and say "the fresh chat test failed: <what was missing>".
+
+## Prompt 20: Add something new to the project
+Use in the Lead chat.
+
+```
+add to this project: <your idea>
+```
+
+Claude asks a few questions, says where it fits (an existing session, a new session, a tracker, a scheduled task, or a separate project), what it needs (tools, model, usage, risks), and changes only what's needed after your OK.
+
+## Prompt 21: Add a collaborator
+Use in the Lead chat.
+
+```
+add a collaborator: <name>
+```
+
+Claude asks about their role, what they'll own, access and reporting, then writes their role card, updates the people list and owners table, and makes their handover pack. You share the folders (Claude gives you the steps); they type "join this project" in their own Claude.
+
+## Prompt 22: Change someone's role, or remove them
+Use in the Lead chat.
+
+```
+change <name>'s role
+```
+```
+remove <name> from this project
+```
+
+Claude shows what changes (or who takes over what they own), lists the folders to share or unshare (you do it), and updates everything together after your OK. Nothing is deleted.

@@ -106,6 +106,23 @@ Websites and links for this project: &lt;paste them here&gt;
 <pre><code>Fresh chat test: using only PROJECT-HANDOVER.md and the files it points to, tell me (1) the project's goal and deadline, (2) the most important open item right now, and (3) which session and model I should use for &lt;a typical job&gt;. Then tell me anything in the handover that was unclear or missing.
 </code></pre>
 <p>If it can't answer, go back to the setup chat and say "the fresh chat test failed: <what was missing>".</p>
+<h2>Prompt 20: Add something new to the project</h2>
+<p>Use in the Lead chat.</p>
+<pre><code>add to this project: &lt;your idea&gt;
+</code></pre>
+<p>Claude asks a few questions, says where it fits (an existing session, a new session, a tracker, a scheduled task, or a separate project), what it needs (tools, model, usage, risks), and changes only what's needed after your OK.</p>
+<h2>Prompt 21: Add a collaborator</h2>
+<p>Use in the Lead chat.</p>
+<pre><code>add a collaborator: &lt;name&gt;
+</code></pre>
+<p>Claude asks about their role, what they'll own, access and reporting, then writes their role card, updates the people list and owners table, and makes their handover pack. You share the folders (Claude gives you the steps); they type "join this project" in their own Claude.</p>
+<h2>Prompt 22: Change someone's role, or remove them</h2>
+<p>Use in the Lead chat.</p>
+<pre><code>change &lt;name&gt;'s role
+</code></pre>
+<pre><code>remove &lt;name&gt; from this project
+</code></pre>
+<p>Claude shows what changes (or who takes over what they own), lists the folders to share or unshare (you do it), and updates everything together after your OK. Nothing is deleted.</p>
 </main>
 </body>
 </html>

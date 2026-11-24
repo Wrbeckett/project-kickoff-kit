@@ -18,6 +18,7 @@ The person in this chat is **joining** a project someone else (the **owner**) al
 - Which model this chat is on (Opus, Medium effort is right for this), and which computer it's linked to: the joiner's scheduled tasks run on their own home computer, not the owner's.
 
 ## Step 2: Confirm what's known (one round)
+If the owner made a **role card** for the joiner (MEMBER-<name>.md, status "draft"), confirm it line by line with them instead of building one from scratch; changes they want go to the owner as ASK: lines, and the card becomes "confirmed <date>" once the owner OKs it.
 A 10-line summary of the project from the pack: goal, deadlines, people and who decides, rules, where things live, what's open, and the role the owner expects the joiner to take. Ask: "Is this how you understand it too?" Anything they see differently becomes an ASK: line for the owner, not an edit.
 
 ## Step 3: Short interview (only what's theirs; 3–5 questions a round)

@@ -21,6 +21,8 @@ DOCS = [
     ("00 START HERE.md", "Start Here", False),
     ("00 QUICK START.md", "Quick start", True),
     ("00 Something's not working.md", "Something's not working", True),
+    ("00 What to type.md", "What to type", True),
+    ("11 Grow a project/Grow a project - step by step.md", "Grow a project - step by step", False),
     ("01 New project/New project - step by step.md", "New project - step by step", False),
     ("02 Existing project/Existing project - step by step.md", "Existing project - step by step", False),
     ("04 Prompts to copy.md", "Prompts to copy", False),

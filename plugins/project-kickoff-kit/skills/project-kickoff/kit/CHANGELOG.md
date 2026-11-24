@@ -2,6 +2,10 @@
 
 Each version lists what changed and **what a project built on an older version would need**, so Prompt 9 ("upgrade this project") can offer just those changes. Newest first.
 
+## 1.9.0 (Nov 24, 2026)
+Kit: **11 Grow a project**: "add to this project" (ADD.md: interview, where it fits, what it needs, a small change plan) and "add a collaborator" / "change <name>'s role" / "remove <name> from this project" (PEOPLE.md: owner's interview, role card, owners table, JOIN pack, sharing steps; nothing deleted); MEMBER template (role card); a step-by-step guide (PDF); Prompts 20–22; **00 What to type**, every prompt on one sheet. JOIN confirms a draft role card; what's next and the weekly review suggest growing when an idea keeps coming up.
+Projects: nothing to change; use the new prompts when you need them.
+
 ## 1.8.5 (Nov 22, 2026)
 Sensitive information is now the owner's decision: an always-asked interview question (question bank §5b) for new projects, audits, takeovers and joiners about personal information, the organization's privacy or AI policy and NDAs; rule 15 and the handover record the owner's own words. Until it's set, a temporary hold keeps personal information out.
 Projects: if your rule 15 still shows the old default, ask Lead to run question bank §5b with you and record your own rule.

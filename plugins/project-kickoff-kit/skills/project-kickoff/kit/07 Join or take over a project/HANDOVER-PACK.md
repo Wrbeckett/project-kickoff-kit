@@ -23,7 +23,7 @@ There are two kinds of pack:
 - **[VERIFY]**: unclear, old or contradicting; the receiver's Claude must ask.
 
 ## Step 1: Three questions (multiple choice, recommendation first)
-1. JOIN or TAKEOVER?
+1. JOIN or TAKEOVER? (For a JOIN, if the owner hasn't set the person's role yet, run 11 Grow a project/PEOPLE.md ("add a collaborator") first; it makes the role card this pack then includes.)
 2. Who is the receiver: name, role, and how they'll use Claude (their own account? plan, if known).
 3. The giver's role afterwards. JOIN: owner (default). TAKEOVER: **stay as adviser** (recommended; say how they can be reached and what they'll help with) or **hand off fully**.
 
