@@ -27,6 +27,9 @@ Status: <draft: to confirm with <name> / confirmed <date> / left <date>> · Adde
 - Plan: … · Home computer: … · Model and effort for their work: …
 - Their sessions: "<Project> – <Name> – <job>" (briefs: SESSION-BRIEF-<Name>-<job>.md)
 
+## Their dashboard (optional)
+- DASHBOARD-<Name>.md in People/<name>/ · what's on it: …
+
 ## Privacy
 - Follows the project's rule 15. Extra limits from their own organization or role: …
 

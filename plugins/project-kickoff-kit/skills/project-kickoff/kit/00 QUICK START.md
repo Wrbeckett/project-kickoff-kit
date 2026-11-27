@@ -26,8 +26,10 @@ One page. Everything else in the kit is there for when you need it.
 | Undo a change to a shared file | **restore <file> to <when>** |
 | Add something new to the project | **add to this project: …** |
 | Add a person and their role | **add a collaborator: <name>** |
+| Back up and tidy your existing files | **organize my files** |
+| See what matters to you at a glance | **make my dashboard** |
 
-6. **Answer Claude's questions.** "I don't know yet" is fine. Nothing gets built, sent, bought or deleted without your OK.
+6. **Answer Claude's questions.** New to Claude? Say so: it goes slower and explains as it goes. Say yes when it offers to save your defaults and to back up your existing files. "I don't know yet" is fine. Nothing gets built, sent, bought or deleted without your OK.
 7. **Open the START HERE PDF** Claude makes for your project. Your first chat is now the **Lead**: give it your updates ("done 3, 5").
 
 ## Good to know

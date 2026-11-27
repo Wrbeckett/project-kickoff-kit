@@ -57,7 +57,8 @@ Tell the owner they can answer with "OK 1, 3, 5; not 2; later 4".
 ## Step 4: Build the approved changes
 - Do only the approved items, in a sensible order, checking each one.
 - Fill the templates from "03 Templates" (handover, session briefs, rules, trackers, weekly review, cheat sheet, usage plan, model guide; updates inbox at the Team level; only what the setup level calls for), using what you learned, and fill in the handover's kit version line. Record everything that differs from the kit in PROJECT-CHOICES.md, including what the owner wants kept as it is. Mark anything you couldn't confirm "VERIFY".
-- Folder changes: never delete. Move old or duplicate files into a "_to_delete" or "Archive" folder and list them for the owner.
+- Folder changes: never delete. **Back up first** (zip the affected folders into Archive/Backups/ and check the zip), then move old or duplicate files into a "_to_delete" or "Archive" folder, anything you're unsure about into "_To sort", and log every move in 00 Admin/FILE-MOVES.md ("undo the file moves" reverses it; Prompt 23).
+- Offer the owner's **MY-DEFAULTS.md** if they have none (question bank §0) and a **dashboard** (question bank §7b) as optional decision items.
 - Add a **what could go wrong** list to the handover's §11 (3–5 likeliest reasons the project could still fail, each with a warning sign and what the setup does about it).
 - After building, ask the owner for the **fresh chat test** (Prompt 19) and fix the handover if it fails.
 - Make **"<Project> - START HERE.pdf"** and **"<Project> - Session prompts.pdf"** (see "04 Prompts to copy", Prompt 3), and with the owner's OK the scheduled tasks.

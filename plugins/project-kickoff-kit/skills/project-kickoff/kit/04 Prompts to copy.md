@@ -190,3 +190,33 @@ remove <name> from this project
 ```
 
 Claude shows what changes (or who takes over what they own), lists the folders to share or unshare (you do it), and updates everything together after your OK. Nothing is deleted.
+
+## Prompt 23: Back up and organize files you already have
+Use in the Lead chat, any time (the kickoff also offers it).
+
+```
+organize my files
+```
+
+Claude asks where the files are and what must stay put, zips a backup of the originals first, then shows a plan of where each file would go. Nothing moves until you say OK, and nothing is deleted: anything it isn't sure about goes to a **_To sort** folder for you. To put everything back: **undo the file moves**.
+
+## Prompt 24: Make (or change) my dashboard
+Use in the Lead chat (a collaborator uses their own project chat).
+
+```
+make my dashboard
+```
+```
+change my dashboard: <what>
+```
+
+Claude asks what 3–6 things you want to see at a glance and how fresh they need to be, then builds a one-page dashboard in Claude that stays private until you share it. Want it on your computer like an app? Open it in the Claude desktop app and look for **Install as app** (a beta).
+
+## Prompt 25: Set up my defaults
+Use in any chat, with a folder of your own connected (+ › Add folder).
+
+```
+set up my defaults
+```
+
+Claude asks a few questions (your plan, your computer and laptop work window, how you like updates) and saves your answers as **MY-DEFAULTS.md**, so every new project starts from them. Change it later with **"update MY-DEFAULTS.md: …"**.

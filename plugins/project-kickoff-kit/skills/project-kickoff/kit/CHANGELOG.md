@@ -2,6 +2,11 @@
 
 Each version lists what changed and **what a project built on an older version would need**, so Prompt 9 ("upgrade this project") can offer just those changes. Newest first.
 
+## 1.10.0 (Nov 27, 2026)
+From the first real takeover (people new to AI, all on laptops, files not yet organized):
+Kit: an always-asked **getting started** question (question bank §0): how comfortable the person is with Claude (new: 2–3 questions a round, new words explained, exact buttons) and an offer to **build MY-DEFAULTS.md from the interview** (recommended yes), which now has a **My computer** section (laptop, sleep setting, work window, reminders). **Existing files** (§4c): a backup zip in Archive/Backups first, then, if wanted, a move plan; after the OK files are moved (never deleted), unsure ones go to _To sort, and every move is logged in 00 Admin/FILE-MOVES.md ("undo the file moves"). The audit backs up before moving too. **Personal dashboards** (§7b, DASHBOARD template): optional, 3–6 items per person, a private Claude artifact refreshed by an existing run, with the "Install as app" beta for Mac and Windows; collaborators can have their own. Prompts 23 (organize my files), 24 (make or change my dashboard), 25 (set up my defaults).
+Projects: nothing to change. Use Prompts 23–25 if you want them.
+
 ## 1.9.0 (Nov 24, 2026)
 Kit: **11 Grow a project**: "add to this project" (ADD.md: interview, where it fits, what it needs, a small change plan) and "add a collaborator" / "change <name>'s role" / "remove <name> from this project" (PEOPLE.md: owner's interview, role card, owners table, JOIN pack, sharing steps; nothing deleted); MEMBER template (role card); a step-by-step guide (PDF); Prompts 20–22; **00 What to type**, every prompt on one sheet. JOIN confirms a draft role card; what's next and the weekly review suggest growing when an idea keeps coming up.
 Projects: nothing to change; use the new prompts when you need them.

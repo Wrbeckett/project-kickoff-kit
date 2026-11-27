@@ -11,6 +11,7 @@ Type these in a Claude chat (with the kit plugin installed, or the kit folder co
 | Join a teammate's project | **join this project** | A new chat in your own Claude Project, shared folder connected | 12 |
 | Open another work session | the prompt from your **Session prompts PDF** | A new chat in the project | 3 |
 | Check the setup works (after building) | **fresh chat test** | A new chat in the project | 19 |
+| Save your own settings for every project (plan, laptop work window, how you like updates) | **set up my defaults** | Any chat, with a folder of your own connected | 25 |
 
 ## Every day
 | You want to… | Type this | Where | # |
@@ -31,6 +32,9 @@ Type these in a Claude chat (with the kit plugin installed, or the kit folder co
 | Add a person and their role | **add a collaborator: <name>** | Lead | 21 |
 | Change someone's role, or remove them | **change <name>'s role** · **remove <name> from this project** | Lead | 22 |
 | Change the project lead | **change project lead to <name>** | Lead | 17 |
+| Back up and tidy the files you already have | **organize my files** | Lead | 23 |
+| Put the files back where they were | **undo the file moves** | Lead | 23 |
+| Get your own dashboard | **make my dashboard** (later: **change my dashboard: …**) | Lead (collaborators: their own project chat) | 24 |
 | Bring the project up to the latest kit | **upgrade this project to the latest kit** | Lead | 9 |
 
 ## When something's wrong

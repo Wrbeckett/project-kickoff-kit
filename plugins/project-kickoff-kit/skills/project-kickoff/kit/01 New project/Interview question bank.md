@@ -2,6 +2,10 @@
 
 Skip anything the owner's MY-DEFAULTS.md already answers (confirm it in the summary). Pick only what the project needs. Ask 3–5 at a time, multiple choice where possible (your recommendation first, always allow "other"). Follow up on anything vague, any number that's missing, and any "it depends".
 
+## 0. Getting started (always ask, in the first round)
+- **How comfortable are you with Claude?** (a) New to it: explain each step, one thing at a time; (b) I've used it a bit; (c) I use it a lot. For "new to it": ask 2–3 questions a round instead of 3–5, explain a word the first time you use it (session, scheduled task, connector, artifact), give exact button and menu names, and check in after each part. Record it in PROJECT-CHOICES.md.
+- **Your defaults file:** do you have a MY-DEFAULTS.md? If not: "Want me to set one up from your answers as we go? (Recommended: yes. Your next project starts faster, and your computer and work-window settings are saved.)" Ask where to keep it: a folder of their own that isn't shared (suggest a folder called **My Claude settings** in Documents, connected to this chat with + › Add folder), or for now in People/<name>/ in the project folder. Fill it only with what they actually said, and show it before saving.
+
 ## 1. The project
 - In one or two sentences, what is the project?
 - Why are you doing it? What happens if it doesn't get done?
@@ -27,6 +31,13 @@ Skip anything the owner's MY-DEFAULTS.md already answers (confirm it in the summ
 - Which accounts and apps does the project use? (website host, store/payments, email, calendar, social, design, code repo, spreadsheets, AI tools)
 - What may Claude read? What may it change? What must it never touch?
 - Any existing docs, briefs, plans or past chats Claude should read first?
+
+## 4c. Files you already have (ask if there are any)
+- Do you already have files for this project? Where (a folder, the desktop, Downloads, email attachments, Dropbox, Google Drive)? Roughly how many?
+- **Back them up first?** (Recommended: yes, before anything is moved.) Claude zips the originals into Archive/Backups/ in the project folder, checks the zip, and tells you where it is. Keep a second copy somewhere else too (a USB drive or another cloud folder).
+- **Organize them into the new folders?** (a) Yes, show me the plan first (recommended); (b) just list what's there and I'll sort them; (c) leave them as they are.
+- Anything that must stay where it is (files other apps or links depend on, shared files other people use, website files)?
+Claude only moves and renames, and only after your OK on the plan. Nothing is deleted. Duplicates, old versions and anything it isn't sure about go to a **_To sort** folder for you to decide. Every move is listed in 00 Admin/FILE-MOVES.md, so "undo the file moves" puts everything back.
 
 ## 4b. Home computer (always ask if anything will be scheduled)
 - Which computer will be this project's home computer: the one that stays on with the Claude app open? (A desktop is best; a laptop only if it stays plugged in and awake.) Mac or PC?
@@ -79,10 +90,17 @@ Record the answer as rule 15 in WORKFLOW-RULES.md and the SENSITIVE INFORMATION 
 - Do you want step-by-step instructions with exact menu names?
 - Anything in the kit's usual setup you want to skip, rename or do differently? (It goes in PROJECT-CHOICES.md.)
 
+## 7b. Your dashboard (optional; offer it, and offer it to each collaborator for their own work)
+- Would you like your own **dashboard**: one page that shows what matters most to you on this project, at a glance?
+- What 3–6 things do you want to see? In your words (e.g. this week's to-dos, deadlines coming up, what's waiting on you, what you're waiting on, budget spent, sales or sign-ups, Claude usage this week).
+- How fresh does it need to be: updated with the morning brief, after the weekly review, or only when you ask?
+- Where: a page in Claude, or also an **app on your computer** ("Install as app", a beta in the Claude desktop app for Mac and Windows: its own icon and window)?
+- Anything that must never show on it? (Your sensitive-information rule applies. A dashboard is private until you share it.)
+
 ## 8. Risks and unknowns
 - What worries you most about this project?
 - What don't you know yet that you'll need to find out?
 - What would make you stop or change direction?
 
 ## Closing check (always)
-Read back a 10-line summary: goal, success, deadline, people, work types, where things live, rules, rhythm, usage budget, models, tools, open questions. Ask: "Is this right? Anything to add or change?"
+Read back a 10-line summary: goal, success, deadline, people, work types, where things live (and what happens to existing files), rules, rhythm, usage budget, models, tools, dashboards, open questions. Ask: "Is this right? Anything to add or change?"

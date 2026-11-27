@@ -33,6 +33,10 @@ If you've filled in your own **MY-DEFAULTS.md** (a copy of the kit's MY-DEFAULTS
 
 ## 5. Answer the interview (20–40 min)
 - Claude asks a few questions at a time, often as buttons. Pick one or type your own answer.
+- **New to Claude?** Say so at the start. Claude goes slower, asks fewer questions at a time and explains new words.
+- **Your defaults:** Claude offers to save your answers (your plan, your computer, your laptop work window) as **MY-DEFAULTS.md** for next time. Recommended: yes.
+- **Files you already have:** Claude offers to zip a backup first (recommended: yes), then to organize them into the new folders. It shows you the plan before moving anything, never deletes, and puts anything it isn't sure about in a **_To sort** folder.
+- **A dashboard (optional):** a one-page view of the 3–6 things you care about most. Claude asks what you'd like on it.
 - "I don't know yet" is a fine answer; Claude will note it as an open question.
 - Want something done differently from the kit? Say so. Claude records it in the project's PROJECT-CHOICES.md and keeps it.
 - Claude also asks which Claude plan you have and how much of your weekly usage the project may use. **Settings › Usage** shows your plan, your weekly limit and when it resets; a screenshot is the easiest answer.
@@ -46,7 +50,7 @@ Claude creates the folders and files, then two PDFs in your project folder:
 - **"<Project> - START HERE.pdf"**: how this project runs and your first steps.
 - **"<Project> - Session prompts.pdf"**: the chat name, the model to pick and the one prompt to paste for each extra session.
 
-If Claude suggests scheduled briefs or reports, it asks before creating them.
+If you asked for a dashboard, Claude builds it too and gives you the link. To have it on your computer like an app: open it in the Claude desktop app and look for **Install as app** (a beta). If Claude suggests scheduled briefs or reports, it asks before creating them.
 
 ## 8. Start your other sessions (2 min each)
 For each session in the Session prompts PDF:

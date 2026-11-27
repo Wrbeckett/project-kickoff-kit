@@ -112,7 +112,8 @@ If you got the skill as a card in a Claude chat, click **Save**. If someone shar
 
 ## Make it yours
 Everything in this kit is a starting point. Three ways to change it:
-- **For all your projects:** copy **MY-DEFAULTS-template.md** to a folder of your own, rename it **MY-DEFAULTS.md** and fill it in (your plan, setup level, models, words you prefer, things you always skip). Connect that folder when you start a project, and Claude starts from it. Keep it out of shared folders: it's yours.
+- **For all your projects:** say yes when the kickoff offers to save your defaults (or type **set up my defaults**, Prompt 25), or copy **MY-DEFAULTS-template.md** to a folder of your own, rename it **MY-DEFAULTS.md** and fill it in (your plan, setup level, models, words you prefer, things you always skip). Connect that folder when you start a project, and Claude starts from it. Keep it out of shared folders: it's yours.
+- **Your own dashboard:** type **make my dashboard** (Prompt 24) for a one-page view of what matters to you, which you can also install as an app on your computer (a beta).
 - **For one project:** tell its Lead session **"change: …"** (Prompt 10), e.g. "change: no morning brief". Lead updates every file at once and records it in the project's PROJECT-CHOICES.md, so reviews and upgrades never undo it. "undo change 3" reverses it.
 - **For the kit itself:** edit its files, or log the idea in KIT-FEEDBACK.md; MAINTAINING.md lists which files to update.
 

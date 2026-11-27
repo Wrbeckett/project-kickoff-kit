@@ -37,6 +37,7 @@ The same process is described in several places on purpose (plain-language guide
 | Starter presets | 03 Templates/Presets/ | KICKOFF.md step 2, 03 Templates/Presets/README.md, Standard folder structure.md (common additions) |
 | Blueprint, risks, fresh chat test | 01 New project/KICKOFF.md step 3–4 | AUDIT.md step 4, handover §11, WORKFLOW-REVIEW, Prompt 19, SKILL.md |
 | License | LICENSE.md | _build/repo/LICENSE.md (same text), README.md |
+| Existing files, defaults, dashboards | Interview question bank §0, §4c, §7b; 03 Templates/DASHBOARD-template.md | KICKOFF.md steps 2–4, AUDIT.md step 4, JOIN.md step 3, MY-DEFAULTS template, MEMBER template, Standard folder structure, Prompts 23–25, SKILL.md, 00 What to type, 00 QUICK START, 00 START HERE, New project - step by step |
 | Grow a project | 11 Grow a project/ADD.md, PEOPLE.md | the step-by-step guide in 11, MEMBER template, Prompts 20–22, JOIN.md (role card), HANDOVER-PACK.md, NEXT.md, WORKFLOW-REVIEW, SKILL.md, 00 START HERE, 00 QUICK START, 00 What to type |
 | Prompt sheet | 00 What to type.md | keep in step with 04 Prompts to copy, 00 QUICK START and the repo README table (every new prompt goes on all of them) |
 | Personal defaults | MY-DEFAULTS-template.md | Interview question bank (keep the two in step) |

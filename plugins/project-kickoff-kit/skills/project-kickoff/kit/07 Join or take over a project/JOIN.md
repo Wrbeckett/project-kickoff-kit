@@ -29,6 +29,7 @@ A 10-line summary of the project from the pack: goal, deadlines, people and who 
 - Their time, rhythm, time zone; how they want updates.
 - Tools and connectors they use for their part.
 - Anything they'd like done differently for themselves (it goes in their MEMBER file).
+- How comfortable they are with Claude, whether to save their MY-DEFAULTS.md, and whether they'd like their own **dashboard** for their part (question bank §0 and §7b; optional). Their dashboard shows only what their access allows.
 Skip anything the pack marks as answered. End with a 5-line summary and "Is this right?"
 
 ## Step 4: Join plan (show it; build after a clear yes)

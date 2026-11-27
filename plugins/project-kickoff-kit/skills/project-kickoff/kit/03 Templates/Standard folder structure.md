@@ -11,7 +11,8 @@ Start from this, then add, remove or rename folders to fit. Solo-level projects 
      Handover and briefs/             ← PROJECT-HANDOVER.md, SESSION-BRIEF-*.md, WORKFLOW-RULES.md,
                                          WORKFLOW-REVIEW.md, CHEAT-SHEET.md, USAGE-PLAN.md,
                                          MODEL-GUIDE.md, UPDATES-INBOX.md,
-                                         PROJECT-CHOICES.md, trackers
+                                         PROJECT-CHOICES.md, DASHBOARD-*.md, trackers
+     FILE-MOVES.md                    ← only if Claude organized existing files (undo list)
                                          (or keep these in the Claude Project's docs instead)
      Decisions and notes/
      Receipts and money/              ← only if the project spends money
@@ -21,6 +22,8 @@ Start from this, then add, remove or rename folders to fit. Solo-level projects 
   04 Assets/                          ← logos, photos, fonts, raw footage, source files
   05 Reference/                       ← research, inspiration, specs, contracts, guides
   Archive/                            ← old versions (nothing is deleted)
+     Backups/                         ← zips, e.g. the original files before they were organized
+  _To sort/                           ← existing files Claude wasn't sure about (you decide)
   _to_delete/                         ← files waiting for the owner to delete
 ```
 
